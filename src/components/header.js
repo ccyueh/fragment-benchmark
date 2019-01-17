@@ -1,10 +1,9 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
 const Header = ({ siteTitle }) => (
-  <Navbar inverse staticTop fluid style={{height: `30px`}}>
+  <Navbar inverse staticTop style={{height: `30px`}}>
   <Navbar.Header>
     <Navbar.Brand>
       <a href="/">{siteTitle}</a>
