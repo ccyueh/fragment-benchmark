@@ -1,4 +1,5 @@
 import React from 'react'
+import { Grid, Row, Col } from 'react-bootstrap'
 import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import Layout from '../components/layout'
@@ -39,11 +40,13 @@ const Entry = () => (
     <h1>{sum.fname}_{sum.uid}</h1>
     <hr />
     <h3>Summary</h3>
-  <div css={{display: `flex`}}>
-	<div><img src='https://cdn.rcsb.org/etl/ligand/img/Z/ZWZ/ZWZ-270.png' alt=''/></div>
-	<div css={{textAlign: `right`}}>{Object.keys(sum).map((a) => <span><strong>{a}</strong><br /></span>)}</div>
-	<div>{Object.values(sum).map((a) => <span>{a}<br /></span>)}</div>
-  </div>
+    <Grid>
+	<Row className='show-grid'>
+	<Col xs={4}><img src='https://cdn.rcsb.org/etl/ligand/img/Z/ZWZ/ZWZ-270.png' alt=''/></Col>
+	<Col xs={2}><div css={{textAlign: `right`}}>{Object.keys(sum).map((a) => <span><strong>{a}</strong><br /></span>)}</div></Col>
+	<Col xs={6}>{Object.values(sum).map((a) => <span>{a}<br /></span>)}</Col>
+	</Row>
+    </Grid>
   <hr />
   <h3>Structural Details</h3>
   <ReactTable

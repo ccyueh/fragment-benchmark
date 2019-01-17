@@ -13,6 +13,7 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
           {this.props.headComponents}
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
@@ -22,18 +23,6 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
-	  <script src="https://unpkg.com/ngl"></script>
-          <script dangerouslySetInnerHTML={{
-	    __html: `
-            document.addEventListener("DOMContentLoaded", function () {
-              var stage = new NGL.Stage("viewport");
-	      stage.setParameters({backgroundColor: "white"});
-              stage.loadFile("https://files.rcsb.org/view/4hhb.pdb").then(function (component) {
-		component.addRepresentation("cartoon");
-		component.autoView();
-	      });
-            }); `,
-          }}/>
         </body>
       </html>
     )

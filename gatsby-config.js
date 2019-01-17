@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-typography`,
       options: {
-	pathToConfigModule: `src/utils/typography`,
-      }
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
     `gatsby-transformer-json`,
     {
@@ -40,6 +40,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-glamor`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

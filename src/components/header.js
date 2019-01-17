@@ -1,30 +1,30 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
-
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to} style={{ color: `white`, textDecoration: `none` }}>{props.children}</Link>
-  </li>
-)
+import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
 const Header = ({ siteTitle }) => (
-  <div style={{ background: `black`, marginBottom: `1rem` }}>
-    <div style={{ margin: `0 auto`, padding: `0.5rem 1.0875rem` }}>
-      <h3 style={{ margin: 0, display: `inline`}}>
-        <Link to="/" style={{ color: `white`, textDecoration: `none` }}>
-          {siteTitle}
-        </Link>
-	<small>
-	<ul style={{ listStyle: `none`, float: `right`}}>
-	  <ListLink to="/browse/">Browse</ListLink>
-	  <ListLink to="/about/">About</ListLink>
-	  <ListLink to="/contact/">Contact</ListLink>
-	</ul>
-	</small>
-      </h3>
-    </div>
-  </div>
+  <Navbar inverse staticTop fluid style={{height: `30px`}}>
+  <Navbar.Header>
+    <Navbar.Brand>
+      <a href="/">{siteTitle}</a>
+    </Navbar.Brand>
+  </Navbar.Header>
+  <Nav pullRight>
+    <NavItem eventKey={1} href="/browse/">
+      Browse
+    </NavItem>
+    <NavItem eventKey={2} href="/about/">
+      About
+    </NavItem>
+    <NavItem eventKey={3} href="/download/">
+      Download
+    </NavItem>
+    <NavItem eventKey={4} href="/contact/">
+      Contact
+    </NavItem>
+  </Nav>
+</Navbar>
 )
 
 Header.propTypes = {

@@ -31,8 +31,9 @@ const columns = [{
 	accessor: 'scaled'
 }]
 
+const data2 = require('../data/test.json');
 
-const ThirdPage = ({data}) => (
+const ThirdPage = () => (
   <Layout>
     <SEO title="Page three" />
     <h1>Hi from the third page</h1>
@@ -40,13 +41,14 @@ const ThirdPage = ({data}) => (
     <Link to="/">Go back to the homepage</Link>
 
   <ReactTable
-    data={data.allTestJson.edges.map(a => a.node)}
+    //data={data.allTestJson.edges.map(a => a.node)}
+    data={data2}
     columns={columns}
     showPagination={false}
     minRows={0}
     resizable={false}
   />
-  <div id="viewport" style={{width: `400px`, height: `300px`}}></div>
+  <center><div style={{height: `400px`, width: `400px`}} class='viewer_3Dmoljs' data-href='https://files.rcsb.org/view/4hhb.pdb' data-backgroundcolor='0xffffff' data-style='cartoon' data-select2='hetflag:true' data-style2='stick'></div></center>
   </Layout>
 )
 
