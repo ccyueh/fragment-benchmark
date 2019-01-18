@@ -4,11 +4,15 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import StructTable from '../components/structure'
 import Summary from '../components/summary'
+import Substruct from '../components/substructure'
 
 const entry = 'ZWZ_Q9WYE2';
+const fragName = entry.split('_')[0];
 const entryData = require('../data/' + entry + '.json')
+
 const sum = entryData['summary'];
 const data = entryData['structures'];
+const sub = entryData['substructures'];
 
 const Entry = () => (
   <Layout>
@@ -28,8 +32,7 @@ const Entry = () => (
         <hr />
 	<h3>Substructure Relationships</h3>
       </Row>
-      <Row>
-      </Row>
+      <Substruct frag={fragName} data={sub} />
       <Row>
 	<hr />
       </Row>
