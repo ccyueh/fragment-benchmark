@@ -8,11 +8,23 @@ import Substruct from '../components/substructure'
 
 const entry = 'ZWZ_Q9WYE2';
 const fragName = entry.split('_')[0];
-const entryData = require('../data/' + entry + '.json')
+const uniProt = entry.split('_')[1];
+const entryData = require('../data/entries/' + entry + '.json')
 
 const sum = entryData['summary'];
 const data = entryData['structures'];
 const sub = entryData['substructures'];
+
+sum['Fragment ID'] = (<a href={
+  'https://www.rcsb.org/ligand/' + fragName}>
+  {fragName}
+  </a>
+);
+sum['UniProt Accession'] = (<a href={
+  'https://www.uniprot.org/uniprot/' + uniProt}>
+  {uniProt}
+  </a>
+);
 
 const Entry = () => (
   <Layout>

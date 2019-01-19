@@ -3,22 +3,19 @@ import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 
 const Summary = ({ data }) => (
-  <Row>
-    <Col xs={3}>
-      <img src='https://cdn.rcsb.org/etl/ligand/img/Z/ZWZ/ZWZ-270.png' alt=''/>
-    </Col>
-    <Col xs={2}>
-      <div style={{textAlign: `right` }}>
-        {Object.keys(data).map((a) =>
-          <span><strong>{a}</strong><br /></span>)
-        }</div>
-    </Col>
-    <Col xs={7}>
-      {Object.values(data).map((a) =>
-        <span>{a}<br /></span>)
-      }
-    </Col>
-  </Row>
+  <Row style={{ display: `flex`, alignItems: `center` }}>
+      <Col xs={3}>
+	<img src='https://cdn.rcsb.org/etl/ligand/img/Z/ZWZ/ZWZ-270.png' alt=''/>
+      </Col>
+      <Col xs={9}> 
+          {Object.keys(data).map((a) => <Row>
+	    <span style={{ display: `inline-block`, width: 150 }}>
+	      <strong>{a}</strong>
+	    </span> 
+	    {data[a]}
+	  </Row>)}
+      </Col>
+</Row>
 )
 
 Summary.propTypes = {
