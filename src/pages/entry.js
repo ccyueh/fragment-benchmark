@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Row } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import StructTable from '../components/structure'
@@ -30,7 +30,6 @@ sum['UniProt Accession'] = (<a href={
 const Entry = () => (
   <Layout>
     <SEO title={entry} />
-    <Grid>
       <Row>
         <h1>{entry}</h1>
         <hr />
@@ -46,10 +45,6 @@ const Entry = () => (
 	<h3>Substructure Relationships</h3>
       </Row>
       <Substruct frag={fragName} data={sub} />
-      <Row>
-	<hr />
-      </Row>
-    </Grid>
   </Layout>
 )
 
