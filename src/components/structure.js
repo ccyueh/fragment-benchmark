@@ -5,35 +5,31 @@ import 'react-table/react-table.css'
 import BindData from './bind-data'
 
 const columns = [{
-        Header: 'PDB ID',
-        accessor: 'pdb',
-        Cell: props => <a href={'https://www.rcsb.org/structure/' + props.value}>{props.value}</a>,
-	width: 60
+  Header: 'PDB ID',
+  accessor: 'pdb',
+  Cell: props => <a href={'https://www.rcsb.org/structure/' + props.value}>{props.value}</a>,
+  width: 60
 }, {
-        Header: 'Chain',
-        accessor: 'chain',
-	width: 50
+  Header: 'Chain',
+  accessor: 'chain',
+  width: 50
 }, {
-        Header: 'Ligand',
-        accessor: 'lig',
-        Cell: props => <a href={'https://www.rcsb.org/ligand/' + props.value}>{props.value}</a>,
-	width: 60
+  Header: 'Ligand',
+  accessor: 'lig',
+  Cell: props => <a href={'https://www.rcsb.org/ligand/' + props.value}>{props.value}</a>,
+  width: 60
 }, {
-        Header: 'Residue ID',
-        accessor: 'resi',
-	width: 90
+  Header: 'Residue ID',
+  accessor: 'resi',
+  width: 90
 }, {
-        Header: 'Molecular Weight',
-        accessor: 'mw',
-	width: 140
+  Header: 'Molecular Weight',
+  accessor: 'mw',
+  width: 140
 }, {
-        Header: 'Binding Affinity',
-        accessor: 'bind',
-	Cell: ({ row }) => {
-	  return(<BindData pdb={
-	    row.pdb} bind={
-	    row.bind} />)
-	},
+  Header: 'Binding Affinity',
+  accessor: 'bind',
+  Cell: ({ row }) => { return(<BindData pdb={row.pdb} bind={row.bind} />)},
 }]
 
 const StructTable = ({ data }) => (
