@@ -9,7 +9,8 @@ import Substruct from '../components/substructure'
 const entry = 'ZWZ_Q9WYE2';
 const fragName = entry.split('_')[0];
 const uniProt = entry.split('_')[1];
-const entryData = require('../data/entries/' + entry + '.json')
+const entryData = require('../data/entries/' + entry + '.json');
+const imageLoc = require('../images/' + fragName + '.png');
 
 const sum = entryData['summary'];
 const data = entryData['structures'];
@@ -35,7 +36,7 @@ const Entry = () => (
         <hr />
         <h3>Summary</h3>
       </Row>
-      <Summary data={sum} />
+      <Summary image={imageLoc} data={sum} />
       <Row>
         <hr />
         <h3>Structural Details</h3>

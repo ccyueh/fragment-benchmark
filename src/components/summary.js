@@ -2,10 +2,10 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
 
-const Summary = ({ data }) => (
+const Summary = ({ image, data }) => (
   <Row style={{ display: `flex`, alignItems: `center` }}>
       <Col xs={3}>
-	<img src='https://cdn.rcsb.org/etl/ligand/img/Z/ZWZ/ZWZ-270.png' alt=''/>
+	<img src={image} alt=''/>
       </Col>
       <Col xs={9}> 
           {Object.keys(data).map((a) => <Row>
@@ -19,10 +19,12 @@ const Summary = ({ data }) => (
 )
 
 Summary.propTypes = {
+  image: PropTypes.string,
   data: PropTypes.object,
 }
 
 Summary.defaultProps = {
+  image: ``,
   data: {},
 }
 
