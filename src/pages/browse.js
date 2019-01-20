@@ -4,14 +4,28 @@ import 'react-table/react-table.css'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+const data = require('../data/browse.json')
+
+const getColumnWidth = (rows, accessor, headerText) => {
+  const maxWidth = 250
+  const magicSpacing = 10
+  const cellLength = Math.max(
+    ...rows.map(row => (`${row[accessor]}` || '').length),
+    headerText.length,
+  )
+  return Math.min(maxWidth, cellLength * magicSpacing)
+}
+
 const columns = [{
   Header: 'Entry Name',
   accessor: 'Entry Name',
   Cell: props => <a href={'/entry/' + props.value}>{props.value}</a>,
+  width: getColumnWidth(data, 'Entry Name', 'Entry Name'),
 }, {
   Header: 'Fragment',
   accessor: 'Fragment ID',
   Cell: props => <a href={'https://www.rcsb.org/ligand/' + props.value}>{props.value}</a>,
+  width: getColumnWidth(data, 'Fragment ID', 'Fragment'),
 }, {
   Header: 'Fragment Name',
   accessor: 'Fragment Name',
@@ -22,15 +36,15 @@ const columns = [{
   Header: 'UniProt',
   accessor: 'UniProt Accession',
   Cell: props => <a href={'https://www.uniprot.org/uniprot/' + props.value}>{props.value}</a>,
+  width: getColumnWidth(data, 'UniProt Accession', 'UniProt'),
 }, {
   Header: 'UniProt Name',
   accessor: 'UniProt Name',
 }, {
-  Header: '# Ligands',
+  Header: 'Ligands',
   accessor: 'Number of Ligands',
+  width: getColumnWidth(data, 'Number of Ligands', '# Ligands'),
 }]
-
-const data = require('../data/browse.json')
 
 const Browse = () => (
   <Layout>
@@ -40,7 +54,6 @@ const Browse = () => (
       data={data}
       columns={columns}
       minRows={0}
-      resizable={false}
       getTdProps={() => ({style: {textAlign: 'center'}})}
       className='-striped -highlight'
     />
