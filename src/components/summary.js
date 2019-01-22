@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 const Summary = ({ image, data }) => (
   <Row>
     <center>
-      <img src={image} alt=''/>
+      <img src={image} style={{ maxWidth: `300px` }} alt=''/>
     </center>
     <Col xs={12}>
       {Object.keys(data).map((a) => <Row>
