@@ -50,6 +50,9 @@ const Browse = () => (
   <Layout>
     <SEO title='Browse' />
     <h1>Browse Entries</h1>
+    <p>
+      All entries in the benchmark are listed in the table below. Click on a column header to sort the table by that column or resize it. Use the dropdown menu at the bottom of the table to adjust the number of entries displayed.
+    </p>
     <ReactTable
       data={data}
       columns={columns}
