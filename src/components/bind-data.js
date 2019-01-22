@@ -17,14 +17,14 @@ const ButtonColor = {
 const BindData = ({ pdb, bind }) => (
   <ButtonToolbar>
   {bind.map((a) => {
-    if (a[0] === '-') {
+    if (a.source === '-') {
       return <span>-</span>
     }
     else {
-      var url = BindUrl[a[0]];
-      var color = ButtonColor[a[0]];
+      var url = BindUrl[a.source];
+      var color = ButtonColor[a.source];
       return (
-	<Button href={url+pdb} bsStyle={color} bsSize='xsmall'>{a[1]}</Button>)
+	<Button href={url+pdb} bsStyle={color} bsSize='xsmall'>{a.affinity}</Button>)
     }
   })}
   </ButtonToolbar>

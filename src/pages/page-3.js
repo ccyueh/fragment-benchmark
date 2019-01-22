@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import Layout from '../components/layout'
@@ -53,13 +53,3 @@ const ThirdPage = () => (
 )
 
 export default ThirdPage
-export const Query = graphql`
-query Query {	
-	allTestJson {
-		edges {
-			node {
-				pdb, chain, lig, resi, mw, rmsd, scaled
-			}
-		}
-	}
-}`
