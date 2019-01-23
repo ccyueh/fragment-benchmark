@@ -10,7 +10,7 @@ const Summary = ({ image, data }) => (
     <Col xs={12}>
       {Object.keys(data).map((a) => <Row>
         <span style={{ display: `inline-block`, width: 150 }}>
-          <strong>{a}</strong>
+          <strong>{a.replace(/_/g,' ')}</strong>
         </span> 
         {data[a]}
       </Row>)}

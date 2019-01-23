@@ -1,6 +1,7 @@
 import { graphql } from 'gatsby'
 import React from 'react'
 import { Row } from 'react-bootstrap'
+
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import StructTable from '../components/structure'
@@ -9,9 +10,9 @@ import Substruct from '../components/substructure'
 
 export default ({ data: { entry } }) => (
   <Layout>
-    <SEO title={entry.summary.Fragment_Name + '_' + entry.summary.UniProt_Accession} />
+    <SEO title={entry.summary.Fragment_ID + '_' + entry.summary.UniProt_Accession} />
       <Row>
-        <h1>{entry.summary.Fragment_Name + '_' + entry.summary.UniProt_Accession}</h1>
+        <h1>{entry.summary.Fragment_ID + '_' + entry.summary.UniProt_Accession}</h1>
         <hr />
         <h3>Summary</h3>
       </Row>

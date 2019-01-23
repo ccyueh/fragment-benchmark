@@ -35,6 +35,14 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
       allEntriesJson: { edges: allEntries }
     }
   } = result;
+  
+  createPage({
+    path: `/browse/`,
+    component: require.resolve('./src/templates/browse.js'),
+    context: {
+      slug: `/`
+    }
+  });
 
   allEntries.forEach(entry => {
     createPage({
@@ -44,5 +52,5 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
         id: entry.node.id
       }
     })
-  })
+  });
 }
