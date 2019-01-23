@@ -1,40 +1,40 @@
 exports.createPages = async ({ graphql, actions: { createPage } }) => {
   const result = await graphql(`
     query {
-  allEntriesJson {
-    edges {
-      node {
-	      id
- 				summary {
- 				  Fragment_Name
- 				  Fragment_ID
- 				  Fragment_SMILES
- 				  UniProt_Name
- 				  UniProt_Accession
- 				  Number_of_Ligands
- 				}
- 				structures {
- 				  pdb
- 				  chain
- 				  lig
- 				  resi
- 				  mw
+      allEntriesJson {
+        edges {
+          node {
+	    id
+ 	      summary {
+ 	        Fragment_Name
+ 		Fragment_ID
+ 		Fragment_SMILES
+ 		UniProt_Name
+ 		UniProt_Accession
+ 		Number_of_Ligands
+ 	      }
+ 	      structures {
+ 	        pdb
+ 	      	chain
+ 		lig
+ 		resi
+ 		mw
         	bind {
-            source
-            affinity
+                  source
+                  affinity
+                }
+ 	      }
+              substructures
           }
- 				}
-        substructures
+        }
       }
-    }
-  }
-}`);
+    }`);
 
   const {
     data: {
       allEntriesJson: { edges: allEntries }
     }
-} = result;
+  } = result;
 
   allEntries.forEach(entry => {
     createPage({
