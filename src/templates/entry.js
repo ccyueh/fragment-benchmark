@@ -16,7 +16,15 @@ export default ({ data: { entry } }) => (
         <hr />
         <h3>Summary</h3>
       </Row>
-      <Summary image={require('../images/' + entry.summary.Fragment_ID + '.png')} data={entry.summary} />
+      <Summary image={require('../images/' + entry.summary.Fragment_ID + '.png')} 
+	data={Object.assign(entry.summary, {'Fragment_ID': 
+	  <a href={'https://www.rcsb.org/ligand/'+ entry.summary.Fragment_ID}>
+	    {entry.summary.Fragment_ID}
+	  </a>, 'UniProt_Accession': 
+	  <a href={'https://www.uniprot.org/uniprot/' + 
+	    entry.summary.UniProt_Accession}>
+	      {entry.summary.UniProt_Accession}</a>})} 
+      />
       <Row>
         <hr />
         <h3>Structural Details</h3>
