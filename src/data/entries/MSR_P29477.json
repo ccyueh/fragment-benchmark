@@ -1,1 +1,73 @@
-{"summary": {"Fragment Name": "4-(1H-IMIDAZOL-1-YL)PHENOL", "Fragment ID": "MSR", "Fragment SMILES": "c1cc(ccc1n2ccnc2)O", "UniProt Name": "Nitric oxide synthase, inducible", "UniProt Accession": "P29477", "Number of Ligands": 3}, "structures": [{"pdb":"2ORQ","chain":"A","lig":"MSR","resi":601,"mw":160.17,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"2ORR","chain":"A","lig":"333","resi":601,"mw":374.35,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 55 nM "}]},{"pdb":"2ORT","chain":"A","lig":"342","resi":601,"mw":377.44,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 72 nM "}]},{"pdb":"2ORS","chain":"A","lig":"391","resi":601,"mw":388.38,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 90 nM "}]}], "substructures": [["342"], ["333", "391"]]}
+{
+    "structures": [
+        {
+            "lig": "MSR",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 160.17,
+            "resi": 601,
+            "pdb": "2ORQ"
+        },
+        {
+            "lig": "333",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 55 nM "
+                }
+            ],
+            "mw": 374.35,
+            "resi": 601,
+            "pdb": "2ORR"
+        },
+        {
+            "lig": "342",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 72 nM "
+                }
+            ],
+            "mw": 377.44,
+            "resi": 601,
+            "pdb": "2ORT"
+        },
+        {
+            "lig": "391",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 90 nM "
+                }
+            ],
+            "mw": 388.38,
+            "resi": 601,
+            "pdb": "2ORS"
+        }
+    ],
+    "substructures": [
+        [
+            "342"
+        ],
+        [
+            "333",
+            "391"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P29477",
+        "Fragment SMILES": "c1cc(ccc1n2ccnc2)O",
+        "Number of Ligands": 3,
+        "UniProt Name": "Nitric oxide synthase, inducible",
+        "Fragment Name": "4-(1H-IMIDAZOL-1-YL)PHENOL",
+        "Fragment ID": "MSR"
+    }
+}

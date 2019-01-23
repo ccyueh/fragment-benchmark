@@ -1,1 +1,122 @@
-{"summary": {"Fragment Name": "(2R,3R,4R,5R,6S)-2-(aminomethyl)-6-methylpiperidine-3,4,5-triol", "Fragment ID": "ZWZ", "Fragment SMILES": "C[C@H]1[C@H]([C@H]([C@@H]([C@H](N1)CN)O)O)O", "UniProt Name": "Alpha-L-fucosidase, putative", "UniProt Accession": "Q9WYE2", "Number of Ligands": 5}, "structures": [{"pdb":"2ZWZ","chain":"A","lig":"ZWZ","resi":901,"mw":176.21,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 16.3 nM"},{"source":"PDBBIND","affinity":"Kd = 16.3 nM"}]},{"pdb":"2ZXA","chain":"A","lig":"ZXA","resi":901,"mw":218.25,"bind":[{"source":"PDBBIND","affinity":"Ki = 4.47 nM"}]},{"pdb":"2ZX7","chain":"A","lig":"ZX7","resi":901,"mw":319.36,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 0.427 nM"},{"source":"PDBBIND","affinity":"Ki = 0.0322 nM"}]},{"pdb":"2ZX8","chain":"A","lig":"ZX8","resi":901,"mw":320.34,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 0.441 nM"},{"source":"PDBBIND","affinity":"Ki = 0.2314 nM"}]},{"pdb":"2ZX6","chain":"A","lig":"ZX6","resi":901,"mw":333.38,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 0.475 nM"},{"source":"PDBBIND","affinity":"Ki = 0.0251 nM"}]},{"pdb":"2ZX5","chain":"A","lig":"ZX5","resi":901,"mw":347.41,"bind":[{"source":"PDBBIND","affinity":"Kd = 0.000469 nM"}]}], "substructures": [["ZX7"], ["ZX8"], ["ZXA", "ZX6"], ["ZXA", "ZX5"]]}
+{
+    "structures": [
+        {
+            "lig": "ZWZ",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 16.3 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 16.3 nM"
+                }
+            ],
+            "mw": 176.21,
+            "resi": 901,
+            "pdb": "2ZWZ"
+        },
+        {
+            "lig": "ZXA",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 4.47 nM"
+                }
+            ],
+            "mw": 218.25,
+            "resi": 901,
+            "pdb": "2ZXA"
+        },
+        {
+            "lig": "ZX7",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 0.427 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 0.0322 nM"
+                }
+            ],
+            "mw": 319.36,
+            "resi": 901,
+            "pdb": "2ZX7"
+        },
+        {
+            "lig": "ZX8",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 0.441 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 0.2314 nM"
+                }
+            ],
+            "mw": 320.34,
+            "resi": 901,
+            "pdb": "2ZX8"
+        },
+        {
+            "lig": "ZX6",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 0.475 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 0.0251 nM"
+                }
+            ],
+            "mw": 333.38,
+            "resi": 901,
+            "pdb": "2ZX6"
+        },
+        {
+            "lig": "ZX5",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 0.000469 nM"
+                }
+            ],
+            "mw": 347.41,
+            "resi": 901,
+            "pdb": "2ZX5"
+        }
+    ],
+    "substructures": [
+        [
+            "ZX7"
+        ],
+        [
+            "ZX8"
+        ],
+        [
+            "ZXA",
+            "ZX6"
+        ],
+        [
+            "ZXA",
+            "ZX5"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q9WYE2",
+        "Fragment SMILES": "C[C@H]1[C@H]([C@H]([C@@H]([C@H](N1)CN)O)O)O",
+        "Number of Ligands": 5,
+        "UniProt Name": "Alpha-L-fucosidase, putative",
+        "Fragment Name": "(2R,3R,4R,5R,6S)-2-(aminomethyl)-6-methylpiperidine-3,4,5-triol",
+        "Fragment ID": "ZWZ"
+    }
+}

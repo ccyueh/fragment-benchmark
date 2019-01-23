@@ -1,1 +1,89 @@
-{"summary": {"Fragment Name": "N-phenyl-1H-pyrazole-3-carboxamide", "Fragment ID": "LZ5", "Fragment SMILES": "c1ccc(cc1)NC(=O)c2cc[nH]n2", "UniProt Name": "Cyclin-dependent kinase 2", "UniProt Accession": "P24941", "Number of Ligands": 3}, "structures": [{"pdb":"2VTL","chain":"A","lig":"LZ5","resi":1299,"mw":187.2,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 97000 nM"},{"source":"PDBBIND","affinity":"IC50 = 97000 nM"}]},{"pdb":"2VTI","chain":"A","lig":"LZ3","resi":1299,"mw":316.33,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 660 nM"},{"source":"PDBBIND","affinity":"IC50 = 660 nM"}]},{"pdb":"2VTO","chain":"A","lig":"LZ8","resi":1299,"mw":324.31,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 140 nM"},{"source":"PDBBIND","affinity":"IC50 = 140 nM"}]},{"pdb":"2VTP","chain":"A","lig":"LZ9","resi":1299,"mw":360.29,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 3 nM"},{"source":"PDBBIND","affinity":"IC50 = 3 nM"}]}], "substructures": [["LZ3"], ["LZ8", "LZ9"]]}
+{
+    "structures": [
+        {
+            "lig": "LZ5",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 97000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 97000 nM"
+                }
+            ],
+            "mw": 187.2,
+            "resi": 1299,
+            "pdb": "2VTL"
+        },
+        {
+            "lig": "LZ3",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 660 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 660 nM"
+                }
+            ],
+            "mw": 316.33,
+            "resi": 1299,
+            "pdb": "2VTI"
+        },
+        {
+            "lig": "LZ8",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 140 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 140 nM"
+                }
+            ],
+            "mw": 324.31,
+            "resi": 1299,
+            "pdb": "2VTO"
+        },
+        {
+            "lig": "LZ9",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 3 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 3 nM"
+                }
+            ],
+            "mw": 360.29,
+            "resi": 1299,
+            "pdb": "2VTP"
+        }
+    ],
+    "substructures": [
+        [
+            "LZ3"
+        ],
+        [
+            "LZ8",
+            "LZ9"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P24941",
+        "Fragment SMILES": "c1ccc(cc1)NC(=O)c2cc[nH]n2",
+        "Number of Ligands": 3,
+        "UniProt Name": "Cyclin-dependent kinase 2",
+        "Fragment Name": "N-phenyl-1H-pyrazole-3-carboxamide",
+        "Fragment ID": "LZ5"
+    }
+}

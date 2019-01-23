@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "D-ALANINE", "Fragment ID": "DAL", "Fragment SMILES": "C[C@H](C(=O)O)N", "UniProt Name": "D-alanyl-D-alanine carboxypeptidase", "UniProt Accession": "P15555", "Number of Ligands": 1}, "structures": [{"pdb":"1IKI","chain":"A","lig":"DAL","resi":500,"mw":89.09,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"1PW1","chain":"A","lig":"HEL","resi":400,"mw":429.47,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["HEL"]]}
+{
+    "structures": [
+        {
+            "lig": "DAL",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 89.09,
+            "resi": 500,
+            "pdb": "1IKI"
+        },
+        {
+            "lig": "HEL",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 429.47,
+            "resi": 400,
+            "pdb": "1PW1"
+        }
+    ],
+    "substructures": [
+        [
+            "HEL"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P15555",
+        "Fragment SMILES": "C[C@H](C(=O)O)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "D-alanyl-D-alanine carboxypeptidase",
+        "Fragment Name": "D-ALANINE",
+        "Fragment ID": "DAL"
+    }
+}

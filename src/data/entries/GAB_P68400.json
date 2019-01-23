@@ -1,1 +1,59 @@
-{"summary": {"Fragment Name": "3-AMINOBENZOIC ACID", "Fragment ID": "GAB", "Fragment SMILES": "c1cc(cc(c1)N)C(=O)O", "UniProt Name": "Casein kinase II subunit alpha", "UniProt Accession": "P68400", "Number of Ligands": 2}, "structures": [{"pdb":"5CSV","chain":"A","lig":"GAB","resi":403,"mw":137.14,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5CU4","chain":"A","lig":"54S","resi":404,"mw":479.95,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5MO8","chain":"B","lig":"C98","resi":401,"mw":479.95,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["54S"], ["C98"]]}
+{
+    "structures": [
+        {
+            "lig": "GAB",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 137.14,
+            "resi": 403,
+            "pdb": "5CSV"
+        },
+        {
+            "lig": "54S",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 479.95,
+            "resi": 404,
+            "pdb": "5CU4"
+        },
+        {
+            "lig": "C98",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 479.95,
+            "resi": 401,
+            "pdb": "5MO8"
+        }
+    ],
+    "substructures": [
+        [
+            "54S"
+        ],
+        [
+            "C98"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P68400",
+        "Fragment SMILES": "c1cc(cc(c1)N)C(=O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Casein kinase II subunit alpha",
+        "Fragment Name": "3-AMINOBENZOIC ACID",
+        "Fragment ID": "GAB"
+    }
+}

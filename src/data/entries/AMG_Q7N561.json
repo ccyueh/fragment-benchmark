@@ -1,1 +1,59 @@
-{"summary": {"Fragment Name": "ALPHA-METHYL-D-GALACTOSIDE", "Fragment ID": "AMG", "Fragment SMILES": "CO[C@@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)O)O)O", "UniProt Name": "Lectin A", "UniProt Accession": "Q7N561", "Number of Ligands": 2}, "structures": [{"pdb":"5ODU","chain":"C","lig":"AMG","resi":201,"mw":194.18,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5OFX","chain":"H","lig":"RAF","resi":201,"mw":504.44,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5OFI","chain":"D","lig":"9TQ","resi":202,"mw":614.62,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["RAF"], ["9TQ"]]}
+{
+    "structures": [
+        {
+            "lig": "AMG",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 194.18,
+            "resi": 201,
+            "pdb": "5ODU"
+        },
+        {
+            "lig": "RAF",
+            "chain": "H",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 504.44,
+            "resi": 201,
+            "pdb": "5OFX"
+        },
+        {
+            "lig": "9TQ",
+            "chain": "D",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 614.62,
+            "resi": 202,
+            "pdb": "5OFI"
+        }
+    ],
+    "substructures": [
+        [
+            "RAF"
+        ],
+        [
+            "9TQ"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q7N561",
+        "Fragment SMILES": "CO[C@@H]1[C@@H]([C@H]([C@H]([C@H](O1)CO)O)O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Lectin A",
+        "Fragment Name": "ALPHA-METHYL-D-GALACTOSIDE",
+        "Fragment ID": "AMG"
+    }
+}

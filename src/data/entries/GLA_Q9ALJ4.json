@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "ALPHA D-GALACTOSE", "Fragment ID": "GLA", "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O", "UniProt Name": "Alpha-galactosidase AgaA", "UniProt Accession": "Q9ALJ4", "Number of Ligands": 1}, "structures": [{"pdb":"4FNU","chain":"B","lig":"GLA","resi":801,"mw":180.16,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4FNT","chain":"C","lig":"RAF","resi":801,"mw":504.44,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["RAF"]]}
+{
+    "structures": [
+        {
+            "lig": "GLA",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 180.16,
+            "resi": 801,
+            "pdb": "4FNU"
+        },
+        {
+            "lig": "RAF",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 504.44,
+            "resi": 801,
+            "pdb": "4FNT"
+        }
+    ],
+    "substructures": [
+        [
+            "RAF"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q9ALJ4",
+        "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Alpha-galactosidase AgaA",
+        "Fragment Name": "ALPHA D-GALACTOSE",
+        "Fragment ID": "GLA"
+    }
+}

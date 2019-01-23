@@ -1,1 +1,51 @@
-{"summary": {"Fragment Name": "PYRAZOLO[1,5-A]PYRIMIDINE-3-CARBONITRILE", "Fragment ID": "LZM", "Fragment SMILES": "c1cnc2c(cnn2c1)C#N", "UniProt Name": "Cyclin-dependent kinase 2", "UniProt Accession": "P24941", "Number of Ligands": 1}, "structures": [{"pdb":"2VTM","chain":"A","lig":"LZM","resi":1299,"mw":144.13,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = ~1000000 nM"},{"source":"PDBBIND","affinity":"IC50 = 1000000 nM"}]},{"pdb":"2VTS","chain":"A","lig":"LZC","resi":1299,"mw":313.4,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 30 nM"},{"source":"PDBBIND","affinity":"IC50 = 30 nM"}]}], "substructures": [["LZC"]]}
+{
+    "structures": [
+        {
+            "lig": "LZM",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = ~1000000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 1000000 nM"
+                }
+            ],
+            "mw": 144.13,
+            "resi": 1299,
+            "pdb": "2VTM"
+        },
+        {
+            "lig": "LZC",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 30 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 30 nM"
+                }
+            ],
+            "mw": 313.4,
+            "resi": 1299,
+            "pdb": "2VTS"
+        }
+    ],
+    "substructures": [
+        [
+            "LZC"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P24941",
+        "Fragment SMILES": "c1cnc2c(cnn2c1)C#N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Cyclin-dependent kinase 2",
+        "Fragment Name": "PYRAZOLO[1,5-A]PYRIMIDINE-3-CARBONITRILE",
+        "Fragment ID": "LZM"
+    }
+}

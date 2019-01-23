@@ -1,1 +1,57 @@
-{"summary": {"Fragment Name": "THYMINE", "Fragment ID": "TDR", "Fragment SMILES": "CC1=CNC(=O)NC1=O", "UniProt Name": "NAD(P)H-hydrate epimerase", "UniProt Accession": "Q8K4Z3", "Number of Ligands": 2}, "structures": [{"pdb":"3RO7","chain":"A","lig":"TDR","resi":300,"mw":126.11,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3ROE","chain":"F","lig":"THM","resi":265,"mw":242.23,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3ROG","chain":"A","lig":"T3P","resi":265,"mw":322.21,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["THM", "T3P"]]}
+{
+    "structures": [
+        {
+            "lig": "TDR",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 126.11,
+            "resi": 300,
+            "pdb": "3RO7"
+        },
+        {
+            "lig": "THM",
+            "chain": "F",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 242.23,
+            "resi": 265,
+            "pdb": "3ROE"
+        },
+        {
+            "lig": "T3P",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 322.21,
+            "resi": 265,
+            "pdb": "3ROG"
+        }
+    ],
+    "substructures": [
+        [
+            "THM",
+            "T3P"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q8K4Z3",
+        "Fragment SMILES": "CC1=CNC(=O)NC1=O",
+        "Number of Ligands": 2,
+        "UniProt Name": "NAD(P)H-hydrate epimerase",
+        "Fragment Name": "THYMINE",
+        "Fragment ID": "TDR"
+    }
+}

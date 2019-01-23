@@ -1,1 +1,79 @@
-{"summary": {"Fragment Name": "5-methoxy-1H-indole", "Fragment ID": "BZ3", "Fragment SMILES": "COc1ccc2c(c1)cc[nH]2", "UniProt Name": "Pantothenate synthetase", "UniProt Accession": "P9WIL5", "Number of Ligands": 2}, "structures": [{"pdb":"3IMC","chain":"A","lig":"BZ3","resi":702,"mw":147.17,"bind":[{"source":"BINDINGDB","affinity":"Kd = 1100000 nM "},{"source":"BINDINGMOAD","affinity":"Kd = 1100000 nM"},{"source":"PDBBIND","affinity":"Kd = 1100000 nM"}]},{"pdb":"3ISJ","chain":"A","lig":"A8D","resi":308,"mw":268.29,"bind":[{"source":"BINDINGMOAD","affinity":"Kd = 210000 nM"},{"source":"PDBBIND","affinity":"Kd = 210000 nM"}]},{"pdb":"3IUB","chain":"A","lig":"FG2","resi":302,"mw":345.37,"bind":[{"source":"BINDINGDB","affinity":"Kd = 29000 nM "},{"source":"BINDINGMOAD","affinity":"Kd = 29000 nM"},{"source":"PDBBIND","affinity":"Kd = 29000 nM"}]}], "substructures": [["A8D"], ["FG2"]]}
+{
+    "structures": [
+        {
+            "lig": "BZ3",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 1100000 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 1100000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 1100000 nM"
+                }
+            ],
+            "mw": 147.17,
+            "resi": 702,
+            "pdb": "3IMC"
+        },
+        {
+            "lig": "A8D",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 210000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 210000 nM"
+                }
+            ],
+            "mw": 268.29,
+            "resi": 308,
+            "pdb": "3ISJ"
+        },
+        {
+            "lig": "FG2",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 29000 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 29000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 29000 nM"
+                }
+            ],
+            "mw": 345.37,
+            "resi": 302,
+            "pdb": "3IUB"
+        }
+    ],
+    "substructures": [
+        [
+            "A8D"
+        ],
+        [
+            "FG2"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P9WIL5",
+        "Fragment SMILES": "COc1ccc2c(c1)cc[nH]2",
+        "Number of Ligands": 2,
+        "UniProt Name": "Pantothenate synthetase",
+        "Fragment Name": "5-methoxy-1H-indole",
+        "Fragment ID": "BZ3"
+    }
+}

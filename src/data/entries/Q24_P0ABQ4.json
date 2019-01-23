@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "quinazoline-2,4-diamine", "Fragment ID": "Q24", "Fragment SMILES": "c1ccc2c(c1)c(nc(n2)N)N", "UniProt Name": "Dihydrofolate reductase", "UniProt Accession": "P0ABQ4", "Number of Ligands": 1}, "structures": [{"pdb":"3QYO","chain":"A","lig":"Q24","resi":161,"mw":160.18,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 7000 nM"}]},{"pdb":"3KFY","chain":"A","lig":"JZM","resi":1162,"mw":302.78,"bind":[{"source":"BINDINGDB","affinity":"Ki = 38 nM "}]}], "substructures": [["JZM"]]}
+{
+    "structures": [
+        {
+            "lig": "Q24",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 7000 nM"
+                }
+            ],
+            "mw": 160.18,
+            "resi": 161,
+            "pdb": "3QYO"
+        },
+        {
+            "lig": "JZM",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Ki = 38 nM "
+                }
+            ],
+            "mw": 302.78,
+            "resi": 1162,
+            "pdb": "3KFY"
+        }
+    ],
+    "substructures": [
+        [
+            "JZM"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P0ABQ4",
+        "Fragment SMILES": "c1ccc2c(c1)c(nc(n2)N)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Dihydrofolate reductase",
+        "Fragment Name": "quinazoline-2,4-diamine",
+        "Fragment ID": "Q24"
+    }
+}
