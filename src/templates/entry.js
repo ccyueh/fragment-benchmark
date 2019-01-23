@@ -15,7 +15,7 @@ export default ({ data: { entry } }) => (
         <hr />
         <h3>Summary</h3>
       </Row>
-      <Summary image={require('../images/' + entry.summary.Fragment_Name + '.png')} data={entry.summary} />
+      <Summary image={require('../images/' + entry.summary.Fragment_ID + '.png')} data={entry.summary} />
       <Row>
         <hr />
         <h3>Structural Details</h3>
@@ -24,7 +24,7 @@ export default ({ data: { entry } }) => (
         <hr />
 	<h3>Substructure Relationships</h3>
       </Row>
-      <Substruct frag={entry.summary.Fragment_Name} data={entry.substructures} />
+      <Substruct frag={entry.summary.Fragment_ID} data={entry.substructures} />
   </Layout>
 )
 
