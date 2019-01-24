@@ -1,1 +1,79 @@
-{"summary": {"Fragment Name": "CATECHOL", "Fragment ID": "CAQ", "Fragment SMILES": "c1ccc(c(c1)O)O", "UniProt Name": "Biphenyl-2,3-diol 1,2-dioxygenase", "UniProt Accession": "P47228", "Number of Ligands": 3}, "structures": [{"pdb":"1KND","chain":"A","lig":"CAQ","resi":301,"mw":110.11,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"1KMY","chain":"A","lig":"BPY","resi":300,"mw":186.21,"bind":[{"source":"BINDINGMOAD","affinity":"Kd = 8000 nM"},{"source":"PDBBIND","affinity":"Kd = 8000 nM"}]},{"pdb":"1LGT","chain":"A","lig":"BP3","resi":300,"mw":220.65,"bind":[{"source":"BINDINGMOAD","affinity":"Kd = 800 nM"},{"source":"PDBBIND","affinity":"Kd = 800 nM"}]},{"pdb":"1LKD","chain":"A","lig":"BP6","resi":300,"mw":255.1,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["BPY", "BP3", "BP6"]]}
+{
+    "structures": [
+        {
+            "lig": "CAQ",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 110.11,
+            "resi": 301,
+            "pdb": "1KND"
+        },
+        {
+            "lig": "BPY",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 8000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 8000 nM"
+                }
+            ],
+            "mw": 186.21,
+            "resi": 300,
+            "pdb": "1KMY"
+        },
+        {
+            "lig": "BP3",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 800 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 800 nM"
+                }
+            ],
+            "mw": 220.65,
+            "resi": 300,
+            "pdb": "1LGT"
+        },
+        {
+            "lig": "BP6",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 255.1,
+            "resi": 300,
+            "pdb": "1LKD"
+        }
+    ],
+    "substructures": [
+        [
+            "BPY",
+            "BP3",
+            "BP6"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P47228",
+        "Fragment SMILES": "c1ccc(c(c1)O)O",
+        "Number of Ligands": 3,
+        "UniProt Name": "Biphenyl-2,3-diol 1,2-dioxygenase",
+        "Fragment Name": "CATECHOL",
+        "Fragment ID": "CAQ"
+    }
+}

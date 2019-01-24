@@ -1,1 +1,230 @@
-{"summary": {"Fragment Name": "CATECHOL", "Fragment ID": "CAQ", "Fragment SMILES": "c1ccc(c(c1)O)O", "UniProt Name": "Neutrophil gelatinase-associated lipocalin", "UniProt Accession": "P80188", "Number of Ligands": 11}, "structures": [{"pdb":"3FW4","chain":"C","lig":"CAQ","resi":180,"mw":110.11,"bind":[{"source":"BINDINGMOAD","affinity":"Kd = 0.4 nM"},{"source":"PDBBIND","affinity":"Kd = 0.4 nM"}]},{"pdb":"1X71","chain":"C","lig":"DB1","resi":201,"mw":153.13,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3CBC","chain":"C","lig":"DBS","resi":303,"mw":241.2,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4ZHD","chain":"C","lig":"4OZ","resi":202,"mw":283.23,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3T1D","chain":"A","lig":"TD1","resi":186,"mw":328.27,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3HWE","chain":"A","lig":"RKS","resi":180,"mw":540.56,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3K3L","chain":"C","lig":"MCK","resi":179,"mw":551.46,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4ZHC","chain":"C","lig":"TC2","resi":202,"mw":555.54,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4K19","chain":"B","lig":"1OD","resi":202,"mw":622.62,"bind":[{"source":"BINDINGDB","affinity":"Kd = 34 nM "},{"source":"PDBBIND","affinity":"Kd = 4.4 nM"}]},{"pdb":"4ZFX","chain":"A","lig":"EB4","resi":202,"mw":669.55,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3I0A","chain":"C","lig":"MCJ","resi":183,"mw":687.56,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5KID","chain":"C","lig":"7K9","resi":202,"mw":746.76,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["DB1", "RKS"], ["DB1", "TC2"], ["DB1", "1OD"], ["DB1", "7K9"], ["DB1", "DBS", "4OZ", "MCK"], ["DB1", "DBS", "4OZ", "EB4"], ["DB1", "DBS", "4OZ", "MCJ"], ["DB1", "DBS", "TD1", "MCK"], ["DB1", "DBS", "TD1", "EB4"], ["DB1", "DBS", "TD1", "MCJ"]]}
+{
+    "structures": [
+        {
+            "lig": "CAQ",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 0.4 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 0.4 nM"
+                }
+            ],
+            "mw": 110.11,
+            "resi": 180,
+            "pdb": "3FW4"
+        },
+        {
+            "lig": "DB1",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 153.13,
+            "resi": 201,
+            "pdb": "1X71"
+        },
+        {
+            "lig": "DBS",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 241.2,
+            "resi": 303,
+            "pdb": "3CBC"
+        },
+        {
+            "lig": "4OZ",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 283.23,
+            "resi": 202,
+            "pdb": "4ZHD"
+        },
+        {
+            "lig": "TD1",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 328.27,
+            "resi": 186,
+            "pdb": "3T1D"
+        },
+        {
+            "lig": "RKS",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 540.56,
+            "resi": 180,
+            "pdb": "3HWE"
+        },
+        {
+            "lig": "MCK",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 551.46,
+            "resi": 179,
+            "pdb": "3K3L"
+        },
+        {
+            "lig": "TC2",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 555.54,
+            "resi": 202,
+            "pdb": "4ZHC"
+        },
+        {
+            "lig": "1OD",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 34 nM "
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 4.4 nM"
+                }
+            ],
+            "mw": 622.62,
+            "resi": 202,
+            "pdb": "4K19"
+        },
+        {
+            "lig": "EB4",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 669.55,
+            "resi": 202,
+            "pdb": "4ZFX"
+        },
+        {
+            "lig": "MCJ",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 687.56,
+            "resi": 183,
+            "pdb": "3I0A"
+        },
+        {
+            "lig": "7K9",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 746.76,
+            "resi": 202,
+            "pdb": "5KID"
+        }
+    ],
+    "substructures": [
+        [
+            "DB1",
+            "RKS"
+        ],
+        [
+            "DB1",
+            "TC2"
+        ],
+        [
+            "DB1",
+            "1OD"
+        ],
+        [
+            "DB1",
+            "7K9"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "MCK"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "EB4"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "MCJ"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "MCK"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "EB4"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "MCJ"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P80188",
+        "Fragment SMILES": "c1ccc(c(c1)O)O",
+        "Number of Ligands": 11,
+        "UniProt Name": "Neutrophil gelatinase-associated lipocalin",
+        "Fragment Name": "CATECHOL",
+        "Fragment ID": "CAQ"
+    }
+}

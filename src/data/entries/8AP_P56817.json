@@ -1,1 +1,77 @@
-{"summary": {"Fragment Name": "N~3~-BENZYLPYRIDINE-2,3-DIAMINE", "Fragment ID": "8AP", "Fragment SMILES": "c1ccc(cc1)CNc2cccnc2N", "UniProt Name": "Beta-secretase 1", "UniProt Accession": "P56817", "Number of Ligands": 2}, "structures": [{"pdb":"2OHM","chain":"A","lig":"8AP","resi":389,"mw":199.25,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 310000 nM "},{"source":"PDBBIND","affinity":"IC50 = 310000 nM"}]},{"pdb":"2OHT","chain":"A","lig":"IP6","resi":601,"mw":314.38,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 9100 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 9100 nM"},{"source":"PDBBIND","affinity":"IC50 = 9100 nM"}]},{"pdb":"2OHU","chain":"A","lig":"IP7","resi":390,"mw":421.49,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 4200 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 4200 nM"},{"source":"PDBBIND","affinity":"IC50 = 4200 nM"}]}], "substructures": [["IP6", "IP7"]]}
+{
+    "structures": [
+        {
+            "lig": "8AP",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 310000 nM "
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 310000 nM"
+                }
+            ],
+            "mw": 199.25,
+            "resi": 389,
+            "pdb": "2OHM"
+        },
+        {
+            "lig": "IP6",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 9100 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 9100 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 9100 nM"
+                }
+            ],
+            "mw": 314.38,
+            "resi": 601,
+            "pdb": "2OHT"
+        },
+        {
+            "lig": "IP7",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 4200 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 4200 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 4200 nM"
+                }
+            ],
+            "mw": 421.49,
+            "resi": 390,
+            "pdb": "2OHU"
+        }
+    ],
+    "substructures": [
+        [
+            "IP6",
+            "IP7"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P56817",
+        "Fragment SMILES": "c1ccc(cc1)CNc2cccnc2N",
+        "Number of Ligands": 2,
+        "UniProt Name": "Beta-secretase 1",
+        "Fragment Name": "N~3~-BENZYLPYRIDINE-2,3-DIAMINE",
+        "Fragment ID": "8AP"
+    }
+}

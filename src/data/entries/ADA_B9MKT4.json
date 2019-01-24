@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "ALPHA-D-GALACTOPYRANURONIC ACID", "Fragment ID": "ADA", "Fragment SMILES": "[C@@H]1([C@H]([C@H](O[C@@H]([C@@H]1O)O)C(=O)O)O)O", "UniProt Name": "Pectate lyase", "UniProt Accession": "B9MKT4", "Number of Ligands": 1}, "structures": [{"pdb":"4YZ0","chain":"B","lig":"ADA","resi":210,"mw":194.14,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4EW9","chain":"A","lig":"UNG","resi":209,"mw":352.25,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["UNG"]]}
+{
+    "structures": [
+        {
+            "lig": "ADA",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 194.14,
+            "resi": 210,
+            "pdb": "4YZ0"
+        },
+        {
+            "lig": "UNG",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 352.25,
+            "resi": 209,
+            "pdb": "4EW9"
+        }
+    ],
+    "substructures": [
+        [
+            "UNG"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "B9MKT4",
+        "Fragment SMILES": "[C@@H]1([C@H]([C@H](O[C@@H]([C@@H]1O)O)C(=O)O)O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Pectate lyase",
+        "Fragment Name": "ALPHA-D-GALACTOPYRANURONIC ACID",
+        "Fragment ID": "ADA"
+    }
+}

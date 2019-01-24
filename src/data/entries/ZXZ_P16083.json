@@ -1,1 +1,57 @@
-{"summary": {"Fragment Name": "1,4-dimethylquinolin-2(1H)-one", "Fragment ID": "ZXZ", "Fragment SMILES": "CC1=CC(=O)N(c2c1cccc2)C", "UniProt Name": "Ribosyldihydronicotinamide dehydrogenase [quinone]", "UniProt Accession": "P16083", "Number of Ligands": 2}, "structures": [{"pdb":"3NHW","chain":"A","lig":"ZXZ","resi":233,"mw":173.21,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 18200 nM "}]},{"pdb":"3NFR","chain":"A","lig":"EWQ","resi":232,"mw":233.26,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 1900 nM "}]},{"pdb":"3NHK","chain":"A","lig":"VAP","resi":233,"mw":263.29,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 7000 nM "}]}], "substructures": [["EWQ", "VAP"]]}
+{
+    "structures": [
+        {
+            "lig": "ZXZ",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 18200 nM "
+                }
+            ],
+            "mw": 173.21,
+            "resi": 233,
+            "pdb": "3NHW"
+        },
+        {
+            "lig": "EWQ",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 1900 nM "
+                }
+            ],
+            "mw": 233.26,
+            "resi": 232,
+            "pdb": "3NFR"
+        },
+        {
+            "lig": "VAP",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 7000 nM "
+                }
+            ],
+            "mw": 263.29,
+            "resi": 233,
+            "pdb": "3NHK"
+        }
+    ],
+    "substructures": [
+        [
+            "EWQ",
+            "VAP"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P16083",
+        "Fragment SMILES": "CC1=CC(=O)N(c2c1cccc2)C",
+        "Number of Ligands": 2,
+        "UniProt Name": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+        "Fragment Name": "1,4-dimethylquinolin-2(1H)-one",
+        "Fragment ID": "ZXZ"
+    }
+}

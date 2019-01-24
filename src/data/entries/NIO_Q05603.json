@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "NICOTINIC ACID", "Fragment ID": "NIO", "Fragment SMILES": "c1cc(cnc1)C(=O)O", "UniProt Name": "Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase", "UniProt Accession": "Q05603", "Number of Ligands": 1}, "structures": [{"pdb":"1L4N","chain":"A","lig":"NIO","resi":991,"mw":123.11,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"1L4L","chain":"A","lig":"NCN","resi":991,"mw":335.2,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["NCN"]]}
+{
+    "structures": [
+        {
+            "lig": "NIO",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 123.11,
+            "resi": 991,
+            "pdb": "1L4N"
+        },
+        {
+            "lig": "NCN",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 335.2,
+            "resi": 991,
+            "pdb": "1L4L"
+        }
+    ],
+    "substructures": [
+        [
+            "NCN"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q05603",
+        "Fragment SMILES": "c1cc(cnc1)C(=O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase",
+        "Fragment Name": "NICOTINIC ACID",
+        "Fragment ID": "NIO"
+    }
+}

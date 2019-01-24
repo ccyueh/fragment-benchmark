@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "6-amino-1-methylquinolin-2(1H)-one", "Fragment ID": "8T1", "Fragment SMILES": "CN1c2ccc(cc2C=CC1=O)N", "UniProt Name": "Bromodomain-containing protein 1", "UniProt Accession": "O95696", "Number of Ligands": 1}, "structures": [{"pdb":"5POE","chain":"A","lig":"8T1","resi":203,"mw":174.2,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5POC","chain":"A","lig":"8TG","resi":203,"mw":283.08,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["8TG"]]}
+{
+    "structures": [
+        {
+            "lig": "8T1",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 174.2,
+            "resi": 203,
+            "pdb": "5POE"
+        },
+        {
+            "lig": "8TG",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 283.08,
+            "resi": 203,
+            "pdb": "5POC"
+        }
+    ],
+    "substructures": [
+        [
+            "8TG"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "O95696",
+        "Fragment SMILES": "CN1c2ccc(cc2C=CC1=O)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Bromodomain-containing protein 1",
+        "Fragment Name": "6-amino-1-methylquinolin-2(1H)-one",
+        "Fragment ID": "8T1"
+    }
+}

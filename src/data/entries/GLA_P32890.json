@@ -1,1 +1,123 @@
-{"summary": {"Fragment Name": "ALPHA D-GALACTOSE", "Fragment ID": "GLA", "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O", "UniProt Name": "Heat-labile enterotoxin B chain", "UniProt Accession": "P32890", "Number of Ligands": 5}, "structures": [{"pdb":"1DJR","chain":"G","lig":"GLA","resi":1404,"mw":180.16,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"1EFI","chain":"E","lig":"GAT","resi":105,"mw":271.27,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 12000000 nM"},{"source":"PDBBIND","affinity":"IC50 = 12000000 nM"}]},{"pdb":"1LT6","chain":"E","lig":"GAA","resi":104,"mw":301.25,"bind":[{"source":"PDBBIND","affinity":"IC50 = 500000 nM"}]},{"pdb":"1FD7","chain":"H","lig":"AI1","resi":104,"mw":389.4,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 14000000 nM"},{"source":"PDBBIND","affinity":"IC50 = 14000000 nM"}]},{"pdb":"1JQY","chain":"E","lig":"A32","resi":104,"mw":471.46,"bind":[{"source":"BINDINGMOAD","affinity":"Ki = 12000 nM"},{"source":"PDBBIND","affinity":"Ki = 12000 nM"}]},{"pdb":"1PZI","chain":"G","lig":"1DM","resi":107,"mw":556.56,"bind":[{"source":"BINDINGMOAD","affinity":"Kd = 60000 nM"},{"source":"PDBBIND","affinity":"Kd = 60000 nM"}]}], "substructures": [["GAT"], ["GAA"], ["AI1"], ["A32"], ["1DM"]]}
+{
+    "structures": [
+        {
+            "lig": "GLA",
+            "chain": "G",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 180.16,
+            "resi": 1404,
+            "pdb": "1DJR"
+        },
+        {
+            "lig": "GAT",
+            "chain": "E",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 12000000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 12000000 nM"
+                }
+            ],
+            "mw": 271.27,
+            "resi": 105,
+            "pdb": "1EFI"
+        },
+        {
+            "lig": "GAA",
+            "chain": "E",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 500000 nM"
+                }
+            ],
+            "mw": 301.25,
+            "resi": 104,
+            "pdb": "1LT6"
+        },
+        {
+            "lig": "AI1",
+            "chain": "H",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 14000000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 14000000 nM"
+                }
+            ],
+            "mw": 389.4,
+            "resi": 104,
+            "pdb": "1FD7"
+        },
+        {
+            "lig": "A32",
+            "chain": "E",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 12000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 12000 nM"
+                }
+            ],
+            "mw": 471.46,
+            "resi": 104,
+            "pdb": "1JQY"
+        },
+        {
+            "lig": "1DM",
+            "chain": "G",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Kd = 60000 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Kd = 60000 nM"
+                }
+            ],
+            "mw": 556.56,
+            "resi": 107,
+            "pdb": "1PZI"
+        }
+    ],
+    "substructures": [
+        [
+            "GAT"
+        ],
+        [
+            "GAA"
+        ],
+        [
+            "AI1"
+        ],
+        [
+            "A32"
+        ],
+        [
+            "1DM"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P32890",
+        "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+        "Number of Ligands": 5,
+        "UniProt Name": "Heat-labile enterotoxin B chain",
+        "Fragment Name": "ALPHA D-GALACTOSE",
+        "Fragment ID": "GLA"
+    }
+}

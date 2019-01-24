@@ -1,1 +1,43 @@
-{"summary": {"Fragment Name": "1-METHYLQUINOLIN-2(1H)-ONE", "Fragment ID": "12Q", "Fragment SMILES": "CN1c2ccccc2C=CC1=O", "UniProt Name": "Peregrin", "UniProt Accession": "P55201", "Number of Ligands": 1}, "structures": [{"pdb":"5T4U","chain":"A","lig":"12Q","resi":802,"mw":159.19,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"5T4V","chain":"A","lig":"N48","resi":801,"mw":383.42,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["N48"]]}
+{
+    "structures": [
+        {
+            "lig": "12Q",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 159.19,
+            "resi": 802,
+            "pdb": "5T4U"
+        },
+        {
+            "lig": "N48",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 383.42,
+            "resi": 801,
+            "pdb": "5T4V"
+        }
+    ],
+    "substructures": [
+        [
+            "N48"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P55201",
+        "Fragment SMILES": "CN1c2ccccc2C=CC1=O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Peregrin",
+        "Fragment Name": "1-METHYLQUINOLIN-2(1H)-ONE",
+        "Fragment ID": "12Q"
+    }
+}

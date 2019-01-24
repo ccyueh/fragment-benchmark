@@ -1,1 +1,59 @@
-{"summary": {"Fragment Name": "THYMINE", "Fragment ID": "TDR", "Fragment SMILES": "CC1=CNC(=O)NC1=O", "UniProt Name": "QdtC", "UniProt Accession": "Q6TFC6", "Number of Ligands": 2}, "structures": [{"pdb":"3FS8","chain":"B","lig":"TDR","resi":301,"mw":126.11,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3FSC","chain":"A","lig":"T3F","resi":301,"mw":547.35,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3FSB","chain":"A","lig":"T3Q","resi":301,"mw":547.35,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["T3F"], ["T3Q"]]}
+{
+    "structures": [
+        {
+            "lig": "TDR",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 126.11,
+            "resi": 301,
+            "pdb": "3FS8"
+        },
+        {
+            "lig": "T3F",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 547.35,
+            "resi": 301,
+            "pdb": "3FSC"
+        },
+        {
+            "lig": "T3Q",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 547.35,
+            "resi": 301,
+            "pdb": "3FSB"
+        }
+    ],
+    "substructures": [
+        [
+            "T3F"
+        ],
+        [
+            "T3Q"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q6TFC6",
+        "Fragment SMILES": "CC1=CNC(=O)NC1=O",
+        "Number of Ligands": 2,
+        "UniProt Name": "QdtC",
+        "Fragment Name": "THYMINE",
+        "Fragment ID": "TDR"
+    }
+}

@@ -1,1 +1,59 @@
-{"summary": {"Fragment Name": "4-(ACETYLAMINO)-3-AMINO BENZOIC ACID", "Fragment ID": "ST3", "Fragment SMILES": "CC(=O)Nc1ccc(cc1N)C(=O)O", "UniProt Name": "Neuraminidase", "UniProt Accession": "P06820", "Number of Ligands": 2}, "structures": [{"pdb":"1IVE","chain":"A","lig":"ST3","resi":471,"mw":194.19,"bind":[{"source":"BINDINGDB","affinity":"IC50 = >10000000 nM "}]},{"pdb":"1ING","chain":"A","lig":"ST5","resi":471,"mw":252.22,"bind":[{"source":"PDBBIND","affinity":"IC50 = >10000000 nM"}]},{"pdb":"1INH","chain":"A","lig":"ST6","resi":471,"mw":252.25,"bind":[{"source":"PDBBIND","affinity":"IC50 = 5000000 nM"}]}], "substructures": [["ST5"], ["ST6"]]}
+{
+    "structures": [
+        {
+            "lig": "ST3",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = >10000000 nM "
+                }
+            ],
+            "mw": 194.19,
+            "resi": 471,
+            "pdb": "1IVE"
+        },
+        {
+            "lig": "ST5",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = >10000000 nM"
+                }
+            ],
+            "mw": 252.22,
+            "resi": 471,
+            "pdb": "1ING"
+        },
+        {
+            "lig": "ST6",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 5000000 nM"
+                }
+            ],
+            "mw": 252.25,
+            "resi": 471,
+            "pdb": "1INH"
+        }
+    ],
+    "substructures": [
+        [
+            "ST5"
+        ],
+        [
+            "ST6"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P06820",
+        "Fragment SMILES": "CC(=O)Nc1ccc(cc1N)C(=O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Neuraminidase",
+        "Fragment Name": "4-(ACETYLAMINO)-3-AMINO BENZOIC ACID",
+        "Fragment ID": "ST3"
+    }
+}

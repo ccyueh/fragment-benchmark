@@ -1,1 +1,65 @@
-{"summary": {"Fragment Name": "(S)-2-AMINO-3-(3-HYDROXY-ISOXAZOL-4-YL)PROPIONIC ACID", "Fragment ID": "SHI", "Fragment SMILES": "c1c(c(no1)O)C[C@@H](C(=O)O)N", "UniProt Name": "Glutamate receptor 2", "UniProt Accession": "P19491", "Number of Ligands": 2}, "structures": [{"pdb":"1MS7","chain":"A","lig":"SHI","resi":2001,"mw":172.14,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 170 nM"},{"source":"PDBBIND","affinity":"IC50 = 170 nM"}]},{"pdb":"1MY2","chain":"A","lig":"AMQ","resi":602,"mw":186.16,"bind":[{"source":"PDBBIND","affinity":"Ki = 17 nM"}]},{"pdb":"1N0T","chain":"A","lig":"AT1","resi":264,"mw":322.25,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 12200 nM"},{"source":"PDBBIND","affinity":"IC50 = 12200 nM"}]}], "substructures": [["AMQ", "AT1"]]}
+{
+    "structures": [
+        {
+            "lig": "SHI",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 170 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 170 nM"
+                }
+            ],
+            "mw": 172.14,
+            "resi": 2001,
+            "pdb": "1MS7"
+        },
+        {
+            "lig": "AMQ",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "PDBBIND",
+                    "affinity": "Ki = 17 nM"
+                }
+            ],
+            "mw": 186.16,
+            "resi": 602,
+            "pdb": "1MY2"
+        },
+        {
+            "lig": "AT1",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 12200 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 12200 nM"
+                }
+            ],
+            "mw": 322.25,
+            "resi": 264,
+            "pdb": "1N0T"
+        }
+    ],
+    "substructures": [
+        [
+            "AMQ",
+            "AT1"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P19491",
+        "Fragment SMILES": "c1c(c(no1)O)C[C@@H](C(=O)O)N",
+        "Number of Ligands": 2,
+        "UniProt Name": "Glutamate receptor 2",
+        "Fragment Name": "(S)-2-AMINO-3-(3-HYDROXY-ISOXAZOL-4-YL)PROPIONIC ACID",
+        "Fragment ID": "SHI"
+    }
+}

@@ -1,1 +1,121 @@
-{"summary": {"Fragment Name": "OROTIC ACID", "Fragment ID": "ORO", "Fragment SMILES": "C1=C(NC(=O)NC1=O)C(=O)O", "UniProt Name": "Dihydroorotate dehydrogenase (fumarate)", "UniProt Accession": "Q4D3W2", "Number of Ligands": 6}, "structures": [{"pdb":"2E6A","chain":"B","lig":"ORO","resi":2352,"mw":156.1,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W22","chain":"B","lig":"2RO","resi":401,"mw":316.35,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W1T","chain":"B","lig":"WRO","resi":401,"mw":328.24,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W2N","chain":"B","lig":"ROD","resi":401,"mw":328.24,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W2M","chain":"B","lig":"ZRO","resi":401,"mw":328.24,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W3O","chain":"B","lig":"ROE","resi":401,"mw":340.33,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3W2U","chain":"B","lig":"ROU","resi":401,"mw":396.24,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["2RO"], ["ROD"], ["ZRO"], ["ROE"], ["WRO", "ROU"]]}
+{
+    "structures": [
+        {
+            "lig": "ORO",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 156.1,
+            "resi": 2352,
+            "pdb": "2E6A"
+        },
+        {
+            "lig": "2RO",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 316.35,
+            "resi": 401,
+            "pdb": "3W22"
+        },
+        {
+            "lig": "WRO",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 328.24,
+            "resi": 401,
+            "pdb": "3W1T"
+        },
+        {
+            "lig": "ROD",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 328.24,
+            "resi": 401,
+            "pdb": "3W2N"
+        },
+        {
+            "lig": "ZRO",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 328.24,
+            "resi": 401,
+            "pdb": "3W2M"
+        },
+        {
+            "lig": "ROE",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 340.33,
+            "resi": 401,
+            "pdb": "3W3O"
+        },
+        {
+            "lig": "ROU",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 396.24,
+            "resi": 401,
+            "pdb": "3W2U"
+        }
+    ],
+    "substructures": [
+        [
+            "2RO"
+        ],
+        [
+            "ROD"
+        ],
+        [
+            "ZRO"
+        ],
+        [
+            "ROE"
+        ],
+        [
+            "WRO",
+            "ROU"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q4D3W2",
+        "Fragment SMILES": "C1=C(NC(=O)NC1=O)C(=O)O",
+        "Number of Ligands": 6,
+        "UniProt Name": "Dihydroorotate dehydrogenase (fumarate)",
+        "Fragment Name": "OROTIC ACID",
+        "Fragment ID": "ORO"
+    }
+}

@@ -1,1 +1,90 @@
-{"summary": {"Fragment Name": "6-AMINOPYRIMIDIN-2(1H)-ONE", "Fragment ID": "CYT", "Fragment SMILES": "C1=C(NC(=O)N=C1)N", "UniProt Name": "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase", "UniProt Accession": "Q3JRA0", "Number of Ligands": 4}, "structures": [{"pdb":"3MBM","chain":"A","lig":"CYT","resi":164,"mw":111.1,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3QHD","chain":"A","lig":"CTN","resi":165,"mw":243.22,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3IEQ","chain":"A","lig":"C","resi":901,"mw":323.2,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3F0G","chain":"C","lig":"C5P","resi":163,"mw":323.2,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"3K2X","chain":"A","lig":"I5A","resi":164,"mw":353.11,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["I5A"], ["CTN", "C"], ["CTN", "C5P"]]}
+{
+    "structures": [
+        {
+            "lig": "CYT",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 111.1,
+            "resi": 164,
+            "pdb": "3MBM"
+        },
+        {
+            "lig": "CTN",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 243.22,
+            "resi": 165,
+            "pdb": "3QHD"
+        },
+        {
+            "lig": "C",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 323.2,
+            "resi": 901,
+            "pdb": "3IEQ"
+        },
+        {
+            "lig": "C5P",
+            "chain": "C",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 323.2,
+            "resi": 163,
+            "pdb": "3F0G"
+        },
+        {
+            "lig": "I5A",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 353.11,
+            "resi": 164,
+            "pdb": "3K2X"
+        }
+    ],
+    "substructures": [
+        [
+            "I5A"
+        ],
+        [
+            "CTN",
+            "C"
+        ],
+        [
+            "CTN",
+            "C5P"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "Q3JRA0",
+        "Fragment SMILES": "C1=C(NC(=O)N=C1)N",
+        "Number of Ligands": 4,
+        "UniProt Name": "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",
+        "Fragment Name": "6-AMINOPYRIMIDIN-2(1H)-ONE",
+        "Fragment ID": "CYT"
+    }
+}

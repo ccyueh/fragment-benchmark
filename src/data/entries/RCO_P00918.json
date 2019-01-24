@@ -1,1 +1,61 @@
-{"summary": {"Fragment Name": "RESORCINOL", "Fragment ID": "RCO", "Fragment SMILES": "c1cc(cc(c1)O)O", "UniProt Name": "Carbonic anhydrase 2", "UniProt Accession": "P00918", "Number of Ligands": 2}, "structures": [{"pdb":"4E49","chain":"A","lig":"RCO","resi":305,"mw":110.11,"bind":[{"source":"BINDINGDB","affinity":"Ki = 7700 - 9400 nM "},{"source":"BINDINGMOAD","affinity":"Ki = 7700 nM"}]},{"pdb":"4FIK","chain":"A","lig":"TH0","resi":305,"mw":142.18,"bind":[{"source":"-","affinity":"-"}]},{"pdb":"4FIK","chain":"A","lig":"D2S","resi":304,"mw":282.33,"bind":[{"source":"-","affinity":"-"}]}], "substructures": [["TH0", "D2S"]]}
+{
+    "structures": [
+        {
+            "lig": "RCO",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Ki = 7700 - 9400 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "Ki = 7700 nM"
+                }
+            ],
+            "mw": 110.11,
+            "resi": 305,
+            "pdb": "4E49"
+        },
+        {
+            "lig": "TH0",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 142.18,
+            "resi": 305,
+            "pdb": "4FIK"
+        },
+        {
+            "lig": "D2S",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "-",
+                    "affinity": "-"
+                }
+            ],
+            "mw": 282.33,
+            "resi": 304,
+            "pdb": "4FIK"
+        }
+    ],
+    "substructures": [
+        [
+            "TH0",
+            "D2S"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P00918",
+        "Fragment SMILES": "c1cc(cc(c1)O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Carbonic anhydrase 2",
+        "Fragment Name": "RESORCINOL",
+        "Fragment ID": "RCO"
+    }
+}

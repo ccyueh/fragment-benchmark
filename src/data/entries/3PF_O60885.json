@@ -1,1 +1,142 @@
-{"summary": {"Fragment Name": "3-methyl-3,4-dihydroquinazolin-2(1H)-one", "Fragment ID": "3PF", "Fragment SMILES": "CN1Cc2ccccc2NC1=O", "UniProt Name": "Bromodomain-containing protein 4", "UniProt Accession": "O60885", "Number of Ligands": 5}, "structures": [{"pdb":"4DON","chain":"A","lig":"3PF","resi":201,"mw":162.19,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 39000 nM "},{"source":"BINDINGDB","affinity":"Kd = 17000 - 102000 nM "}]},{"pdb":"4HBW","chain":"A","lig":"14Z","resi":202,"mw":269.32,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 1900 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 4800 nM"},{"source":"PDBBIND","affinity":"IC50 = 4800 nM"}]},{"pdb":"4HBX","chain":"A","lig":"14X","resi":201,"mw":295.36,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 4800 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 1900 nM"},{"source":"PDBBIND","affinity":"IC50 = 1900 nM"}]},{"pdb":"4HBY","chain":"A","lig":"13F","resi":201,"mw":317.36,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 4400 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 4400 nM"},{"source":"PDBBIND","affinity":"IC50 = 4400 nM"}]},{"pdb":"4A9L","chain":"A","lig":"P9L","resi":1171,"mw":325.38,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 30000 nM "}]},{"pdb":"4E96","chain":"A","lig":"0NS","resi":201,"mw":347.39,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 220 - 3540 nM "},{"source":"BINDINGDB","affinity":"Kd = 136 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 220 nM"}]}], "substructures": [["13F"], ["0NS"], ["14Z", "14X"], ["14Z", "P9L"]]}
+{
+    "structures": [
+        {
+            "lig": "3PF",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 39000 nM "
+                },
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 17000 - 102000 nM "
+                }
+            ],
+            "mw": 162.19,
+            "resi": 201,
+            "pdb": "4DON"
+        },
+        {
+            "lig": "14Z",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 1900 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 4800 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 4800 nM"
+                }
+            ],
+            "mw": 269.32,
+            "resi": 202,
+            "pdb": "4HBW"
+        },
+        {
+            "lig": "14X",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 4800 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 1900 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 1900 nM"
+                }
+            ],
+            "mw": 295.36,
+            "resi": 201,
+            "pdb": "4HBX"
+        },
+        {
+            "lig": "13F",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 4400 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 4400 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 4400 nM"
+                }
+            ],
+            "mw": 317.36,
+            "resi": 201,
+            "pdb": "4HBY"
+        },
+        {
+            "lig": "P9L",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 30000 nM "
+                }
+            ],
+            "mw": 325.38,
+            "resi": 1171,
+            "pdb": "4A9L"
+        },
+        {
+            "lig": "0NS",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 220 - 3540 nM "
+                },
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 136 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 220 nM"
+                }
+            ],
+            "mw": 347.39,
+            "resi": 201,
+            "pdb": "4E96"
+        }
+    ],
+    "substructures": [
+        [
+            "13F"
+        ],
+        [
+            "0NS"
+        ],
+        [
+            "14Z",
+            "14X"
+        ],
+        [
+            "14Z",
+            "P9L"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "O60885",
+        "Fragment SMILES": "CN1Cc2ccccc2NC1=O",
+        "Number of Ligands": 5,
+        "UniProt Name": "Bromodomain-containing protein 4",
+        "Fragment Name": "3-methyl-3,4-dihydroquinazolin-2(1H)-one",
+        "Fragment ID": "3PF"
+    }
+}

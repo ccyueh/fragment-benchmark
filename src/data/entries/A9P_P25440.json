@@ -1,1 +1,103 @@
-{"summary": {"Fragment Name": "3,5 DIMETHYL-4-PHENYL-1,2-OXAZOLE", "Fragment ID": "A9P", "Fragment SMILES": "Cc1c(c(on1)C)c2ccccc2", "UniProt Name": "Bromodomain-containing protein 2", "UniProt Accession": "P25440", "Number of Ligands": 3}, "structures": [{"pdb":"4ALH","chain":"A","lig":"A9P","resi":1185,"mw":173.21,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 34300 nM "}]},{"pdb":"4A9N","chain":"B","lig":"A9N","resi":1189,"mw":304.36,"bind":[{"source":"BINDINGMOAD","affinity":"IC50 = 1500 nM"},{"source":"PDBBIND","affinity":"IC50 = 1500 nM"}]},{"pdb":"4A9M","chain":"B","lig":"P9M","resi":1187,"mw":334.43,"bind":[{"source":"BINDINGDB","affinity":"IC50 = 500 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 500 nM"},{"source":"PDBBIND","affinity":"IC50 = 500 nM"}]},{"pdb":"4ALG","chain":"A","lig":"1GH","resi":1146,"mw":415.44,"bind":[{"source":"BINDINGDB","affinity":"Ki = 9 - 50 nM "},{"source":"BINDINGDB","affinity":"Kd = 55 - 70 nM "},{"source":"BINDINGDB","affinity":"IC50 = 500 - 501.2 nM "},{"source":"BINDINGMOAD","affinity":"IC50 = 500 nM"},{"source":"PDBBIND","affinity":"IC50 = 500 nM"}]}], "substructures": [["A9N"], ["P9M"], ["1GH"]]}
+{
+    "structures": [
+        {
+            "lig": "A9P",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 34300 nM "
+                }
+            ],
+            "mw": 173.21,
+            "resi": 1185,
+            "pdb": "4ALH"
+        },
+        {
+            "lig": "A9N",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 1500 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 1500 nM"
+                }
+            ],
+            "mw": 304.36,
+            "resi": 1189,
+            "pdb": "4A9N"
+        },
+        {
+            "lig": "P9M",
+            "chain": "B",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 500 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 500 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 500 nM"
+                }
+            ],
+            "mw": 334.43,
+            "resi": 1187,
+            "pdb": "4A9M"
+        },
+        {
+            "lig": "1GH",
+            "chain": "A",
+            "bind": [
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Ki = 9 - 50 nM "
+                },
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "Kd = 55 - 70 nM "
+                },
+                {
+                    "source": "BINDINGDB",
+                    "affinity": "IC50 = 500 - 501.2 nM "
+                },
+                {
+                    "source": "BINDINGMOAD",
+                    "affinity": "IC50 = 500 nM"
+                },
+                {
+                    "source": "PDBBIND",
+                    "affinity": "IC50 = 500 nM"
+                }
+            ],
+            "mw": 415.44,
+            "resi": 1146,
+            "pdb": "4ALG"
+        }
+    ],
+    "substructures": [
+        [
+            "A9N"
+        ],
+        [
+            "P9M"
+        ],
+        [
+            "1GH"
+        ]
+    ],
+    "summary": {
+        "UniProt Accession": "P25440",
+        "Fragment SMILES": "Cc1c(c(on1)C)c2ccccc2",
+        "Number of Ligands": 3,
+        "UniProt Name": "Bromodomain-containing protein 2",
+        "Fragment Name": "3,5 DIMETHYL-4-PHENYL-1,2-OXAZOLE",
+        "Fragment ID": "A9P"
+    }
+}
