@@ -37,7 +37,7 @@ export default ({ data: { entry } }) => (
       <Row>
 	<hr />
 	<h3>Download</h3>
-	<a href={'/download#' + entry.entry_name + '/'}>Download files</a>
+	<a href={'/download#' + entry.entry_name}>Download files</a>
 	<p />
       </Row>
   </Layout>
