@@ -42,6 +42,7 @@ export default () => (
 	allSummary: allEntriesJson {
           edges {
             node {
+	      entry_name
               summary {
                 Fragment_Name
                 Fragment_ID
@@ -64,7 +65,7 @@ export default () => (
           All entries in the benchmark are listed in the table below. Click on a column header to sort the table by that column or to resize the column. To adjust the number of entries displayed in the table, use the dropdown menu at the bottom.
         </p>
         <ReactTable
-          data={data.allSummary.edges.map(a => Object.assign(a.node.summary, {Entry_Name: a.node.summary.Fragment_ID + '_' + a.node.summary.UniProt_Accession}))}
+          data={data.allSummary.edges.map(a => Object.assign(a.node.summary, {Entry_Name: a.node.entry_name}))}
           columns={columns}
           minRows={0}
           getTdProps={() => ({style: {textAlign: 'center'}})}

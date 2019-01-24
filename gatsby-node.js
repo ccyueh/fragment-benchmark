@@ -5,6 +5,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
         edges {
           node {
 	      id
+	      entry_name
  	      summary {
  	        Fragment_Name
  		Fragment_ID
@@ -46,7 +47,7 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
 
   allEntries.forEach(entry => {
     createPage({
-      path: `/entry/${entry.node.summary.Fragment_ID}_${entry.node.summary.UniProt_Accession}/`,
+      path: `/entry/${entry.node.entry_name}/`,
       component: require.resolve('./src/templates/entry.js'),
       context: {
         id: entry.node.id

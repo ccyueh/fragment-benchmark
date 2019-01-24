@@ -10,9 +10,9 @@ import Substruct from '../components/substructure'
 
 export default ({ data: { entry } }) => (
   <Layout>
-    <SEO title={entry.summary.Fragment_ID + '_' + entry.summary.UniProt_Accession} />
+    <SEO title={entry.entry_name} />
       <Row>
-        <h1>{entry.summary.Fragment_ID + '_' + entry.summary.UniProt_Accession}</h1>
+        <h1>{entry.entry_name}</h1>
         <hr />
         <h3>Summary</h3>
       </Row>
