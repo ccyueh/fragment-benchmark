@@ -34,12 +34,19 @@ export default ({ data: { entry } }) => (
 	<h3>Substructure Relationships</h3>
       </Row>
       <Substruct frag={entry.summary.Fragment_ID} data={entry.substructures} />
+      <Row>
+	<hr />
+	<h3>Download</h3>
+	<a href={'/download#' + entry.entry_name + '/'}>Download files</a>
+	<p />
+      </Row>
   </Layout>
 )
 
 export const query = graphql`
   query($id: String!) {
     entry: entriesJson(id: { eq: $id }) {
+      entry_name
       summary {
         Fragment_Name
         Fragment_ID
