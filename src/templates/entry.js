@@ -7,6 +7,7 @@ import SEO from '../components/seo'
 import StructTable from '../components/structure'
 import Summary from '../components/summary'
 import Substruct from '../components/substructure'
+import DLTable from '../components/dl-table'
 
 export default ({ data: { entry } }) => (
   <Layout>
@@ -36,8 +37,8 @@ export default ({ data: { entry } }) => (
       <Substruct frag={entry.summary.Fragment_ID} data={entry.substructures} />
       <Row>
 	<hr />
-	<h3>Download</h3>
-	<a href={'/download#' + entry.entry_name}>Download files</a>
+	<h3 id='dl'>Download</h3>
+	<DLTable entry_name={entry.entry_name} />
 	<p />
       </Row>
   </Layout>
