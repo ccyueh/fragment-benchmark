@@ -16,7 +16,7 @@ const CarouselWrapper = styled.div`
     margin-right: 20%;
   }
 `
-const images = ['index_1','index_2','index_3','index_4']
+const images = ['index_4','index_3','index_2','index_1']
 const captions = {
   'index_1': 'fragment',
   'index_2': 'fragment + ligand 1',
@@ -28,10 +28,10 @@ const IndexCarousel = () => (
     <Col xs={12}>
       <center>
 	<CarouselWrapper>
-          <Carousel slide={false} defaultActiveIndex={4}>
+          <Carousel slide={false}>
 	    {images.map(image => {
 	      return (
-	        <Carousel.Item>
+	        <Carousel.Item style={{ minHeight: `100%` }}>
                   <img alt='' src={require('../images/' + image + '.png')} />
                   <Carousel.Caption>
                     <h4>{captions[image]}</h4>
