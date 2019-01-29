@@ -13,7 +13,7 @@ const DLTable = ({ entry_name }) => (
   <ButtonGroup justified>
     {fileTypes.map(filetype => {
       return (
-        <Button bsStyle='link' download={fileText[filetype] + ' for ' + entry_name} 
+        <Button bsStyle='link' download 
 	  href={'../../' + filetype + '/' + entry_name + '.' + filetype}>
           {fileText[filetype]}</Button>)
      })}
