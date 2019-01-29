@@ -2,18 +2,19 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { Button, ButtonGroup } from 'react-bootstrap'
 
-const fileTypes = ['text','pdb','combined']
+const fileTypes = ['json','pdb','tar']
 const fileText = {
-  'text': 'Tables only',
+  'json': 'Tables only',
   'pdb': 'PyMOL session only',
-  'combined': 'Tables + PyMOL session'
+  'tar': 'Tables + PyMOL session'
 }
 
 const DLTable = ({ entry_name }) => (
   <ButtonGroup justified>
     {fileTypes.map(filetype => {
       return (
-        <Button bsStyle='link' href={'static/' + filetype + '/' + entry_name}>
+        <Button bsStyle='link' 
+	  href={'../../static/' + filetype + '/' + entry_name + '.' + filetype}>
           {fileText[filetype]}</Button>)
      })}
   </ButtonGroup>
