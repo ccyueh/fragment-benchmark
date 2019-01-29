@@ -5,7 +5,7 @@ import { Row, Col } from 'react-bootstrap'
 const Summary = ({ image, data }) => (
   <Row>
     <center>
-      <img src={image} style={{ maxWidth: `300px` }} alt=''/>
+      <img src={require('../images/' + image + '.png')} style={{ maxWidth: `300px` }} alt=''/>
       <p><a href='#dl'>Download files</a></p>
     </center>
     <Col xs={12}>

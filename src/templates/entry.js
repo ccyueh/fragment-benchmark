@@ -17,7 +17,7 @@ export default ({ data: { entry } }) => (
         <hr />
         <h3>Summary</h3>
       </Row>
-      <Summary image={require('../images/' + entry.summary.Fragment_ID + '.png')} 
+      <Summary image={entry.summary.Fragment_ID} 
 	data={Object.assign(entry.summary, {'Fragment_ID': 
 	  <a href={'https://www.rcsb.org/ligand/'+ entry.summary.Fragment_ID}>
 	    {entry.summary.Fragment_ID}
