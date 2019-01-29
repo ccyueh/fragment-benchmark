@@ -1,0 +1,231 @@
+{
+    "Entry Name": "CAQ_P80188", 
+    "Structures": [
+        {
+            "Ligand ID": "CAQ",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 0.4 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 0.4 nM"
+                }
+            ],
+            "Molecular Weight": 110.11,
+            "Residue ID": 180,
+            "PDB ID": "3FW4"
+        },
+        {
+            "Ligand ID": "DB1",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 153.13,
+            "Residue ID": 201,
+            "PDB ID": "1X71"
+        },
+        {
+            "Ligand ID": "DBS",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 241.2,
+            "Residue ID": 303,
+            "PDB ID": "3CBC"
+        },
+        {
+            "Ligand ID": "4OZ",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 283.23,
+            "Residue ID": 202,
+            "PDB ID": "4ZHD"
+        },
+        {
+            "Ligand ID": "TD1",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 328.27,
+            "Residue ID": 186,
+            "PDB ID": "3T1D"
+        },
+        {
+            "Ligand ID": "RKS",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 540.56,
+            "Residue ID": 180,
+            "PDB ID": "3HWE"
+        },
+        {
+            "Ligand ID": "MCK",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 551.46,
+            "Residue ID": 179,
+            "PDB ID": "3K3L"
+        },
+        {
+            "Ligand ID": "TC2",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 555.54,
+            "Residue ID": 202,
+            "PDB ID": "4ZHC"
+        },
+        {
+            "Ligand ID": "1OD",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 34 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 4.4 nM"
+                }
+            ],
+            "Molecular Weight": 622.62,
+            "Residue ID": 202,
+            "PDB ID": "4K19"
+        },
+        {
+            "Ligand ID": "EB4",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 669.55,
+            "Residue ID": 202,
+            "PDB ID": "4ZFX"
+        },
+        {
+            "Ligand ID": "MCJ",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 687.56,
+            "Residue ID": 183,
+            "PDB ID": "3I0A"
+        },
+        {
+            "Ligand ID": "7K9",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 746.76,
+            "Residue ID": 202,
+            "PDB ID": "5KID"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "DB1",
+            "RKS"
+        ],
+        [
+            "DB1",
+            "TC2"
+        ],
+        [
+            "DB1",
+            "1OD"
+        ],
+        [
+            "DB1",
+            "7K9"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "MCK"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "EB4"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "4OZ",
+            "MCJ"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "MCK"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "EB4"
+        ],
+        [
+            "DB1",
+            "DBS",
+            "TD1",
+            "MCJ"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P80188",
+        "Fragment SMILES": "c1ccc(c(c1)O)O",
+        "Number of Ligands": 11,
+        "UniProt Name": "Neutrophil gelatinase-associated lipocalin",
+        "Fragment Name": "CATECHOL",
+        "Fragment ID": "CAQ"
+    }
+}

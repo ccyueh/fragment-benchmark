@@ -1,0 +1,60 @@
+{
+    "Entry Name": "GAB_P68400", 
+    "Structures": [
+        {
+            "Ligand ID": "GAB",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 137.14,
+            "Residue ID": 403,
+            "PDB ID": "5CSV"
+        },
+        {
+            "Ligand ID": "54S",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 479.95,
+            "Residue ID": 404,
+            "PDB ID": "5CU4"
+        },
+        {
+            "Ligand ID": "C98",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 479.95,
+            "Residue ID": 401,
+            "PDB ID": "5MO8"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "54S"
+        ],
+        [
+            "C98"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P68400",
+        "Fragment SMILES": "c1cc(cc(c1)N)C(=O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Casein kinase II subunit alpha",
+        "Fragment Name": "3-AMINOBENZOIC ACID",
+        "Fragment ID": "GAB"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Entry Name": "12Q_P55201", 
+    "Structures": [
+        {
+            "Ligand ID": "12Q",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 159.19,
+            "Residue ID": 802,
+            "PDB ID": "5T4U"
+        },
+        {
+            "Ligand ID": "N48",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 383.42,
+            "Residue ID": 801,
+            "PDB ID": "5T4V"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "N48"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P55201",
+        "Fragment SMILES": "CN1c2ccccc2C=CC1=O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Peregrin",
+        "Fragment Name": "1-METHYLQUINOLIN-2(1H)-ONE",
+        "Fragment ID": "12Q"
+    }
+}

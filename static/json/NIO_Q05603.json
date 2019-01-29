@@ -1,0 +1,44 @@
+{
+    "Entry Name": "NIO_Q05603", 
+    "Structures": [
+        {
+            "Ligand ID": "NIO",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 123.11,
+            "Residue ID": 991,
+            "PDB ID": "1L4N"
+        },
+        {
+            "Ligand ID": "NCN",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 335.2,
+            "Residue ID": 991,
+            "PDB ID": "1L4L"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "NCN"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q05603",
+        "Fragment SMILES": "c1cc(cnc1)C(=O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase",
+        "Fragment Name": "NICOTINIC ACID",
+        "Fragment ID": "NIO"
+    }
+}

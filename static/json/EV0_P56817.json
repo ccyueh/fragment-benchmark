@@ -1,0 +1,64 @@
+{
+    "Entry Name": "EV0_P56817", 
+    "Structures": [
+        {
+            "Ligand ID": "EV0",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 4450000 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 2490000 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = ~2000000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 2000000 nM"
+                }
+            ],
+            "Molecular Weight": 153.18,
+            "Residue ID": 441,
+            "PDB ID": "3HVG"
+        },
+        {
+            "Ligand ID": "B02",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 17100 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 17100 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 17100 nM"
+                }
+            ],
+            "Molecular Weight": 331.41,
+            "Residue ID": 502,
+            "PDB ID": "3VV8"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "B02"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P56817",
+        "Fragment SMILES": "CCCC1=CC(=O)NC(=N1)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Beta-secretase 1",
+        "Fragment Name": "2-amino-6-propylpyrimidin-4(3H)-one",
+        "Fragment ID": "EV0"
+    }
+}

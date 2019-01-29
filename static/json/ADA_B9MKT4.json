@@ -1,0 +1,44 @@
+{
+    "Entry Name": "ADA_B9MKT4", 
+    "Structures": [
+        {
+            "Ligand ID": "ADA",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 194.14,
+            "Residue ID": 210,
+            "PDB ID": "4YZ0"
+        },
+        {
+            "Ligand ID": "UNG",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 352.25,
+            "Residue ID": 209,
+            "PDB ID": "4EW9"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "UNG"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "B9MKT4",
+        "Fragment SMILES": "[C@@H]1([C@H]([C@H](O[C@@H]([C@@H]1O)O)C(=O)O)O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Pectate lyase",
+        "Fragment Name": "ALPHA-D-GALACTOPYRANURONIC ACID",
+        "Fragment ID": "ADA"
+    }
+}

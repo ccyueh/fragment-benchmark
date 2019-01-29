@@ -1,0 +1,44 @@
+{
+    "Entry Name": "12Q_Q92831", 
+    "Structures": [
+        {
+            "Ligand ID": "12Q",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 159.19,
+            "Residue ID": 901,
+            "PDB ID": "5FE1"
+        },
+        {
+            "Ligand ID": "5WS",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 266.32,
+            "Residue ID": 901,
+            "PDB ID": "5FE9"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "5WS"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q92831",
+        "Fragment SMILES": "CN1c2ccccc2C=CC1=O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Histone acetyltransferase KAT2B",
+        "Fragment Name": "1-METHYLQUINOLIN-2(1H)-ONE",
+        "Fragment ID": "12Q"
+    }
+}

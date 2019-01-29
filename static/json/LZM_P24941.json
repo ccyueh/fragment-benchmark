@@ -1,0 +1,52 @@
+{
+    "Entry Name": "LZM_P24941", 
+    "Structures": [
+        {
+            "Ligand ID": "LZM",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = ~1000000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 1000000 nM"
+                }
+            ],
+            "Molecular Weight": 144.13,
+            "Residue ID": 1299,
+            "PDB ID": "2VTM"
+        },
+        {
+            "Ligand ID": "LZC",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 30 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 30 nM"
+                }
+            ],
+            "Molecular Weight": 313.4,
+            "Residue ID": 1299,
+            "PDB ID": "2VTS"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "LZC"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P24941",
+        "Fragment SMILES": "c1cnc2c(cnn2c1)C#N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Cyclin-dependent kinase 2",
+        "Fragment Name": "PYRAZOLO[1,5-A]PYRIMIDINE-3-CARBONITRILE",
+        "Fragment ID": "LZM"
+    }
+}

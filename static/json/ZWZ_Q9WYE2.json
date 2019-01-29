@@ -1,0 +1,123 @@
+{
+    "Entry Name": "ZWZ_Q9WYE2", 
+    "Structures": [
+        {
+            "Ligand ID": "ZWZ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 16.3 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 16.3 nM"
+                }
+            ],
+            "Molecular Weight": 176.21,
+            "Residue ID": 901,
+            "PDB ID": "2ZWZ"
+        },
+        {
+            "Ligand ID": "ZXA",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 4.47 nM"
+                }
+            ],
+            "Molecular Weight": 218.25,
+            "Residue ID": 901,
+            "PDB ID": "2ZXA"
+        },
+        {
+            "Ligand ID": "ZX7",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 0.427 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 0.0322 nM"
+                }
+            ],
+            "Molecular Weight": 319.36,
+            "Residue ID": 901,
+            "PDB ID": "2ZX7"
+        },
+        {
+            "Ligand ID": "ZX8",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 0.441 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 0.2314 nM"
+                }
+            ],
+            "Molecular Weight": 320.34,
+            "Residue ID": 901,
+            "PDB ID": "2ZX8"
+        },
+        {
+            "Ligand ID": "ZX6",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 0.475 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 0.0251 nM"
+                }
+            ],
+            "Molecular Weight": 333.38,
+            "Residue ID": 901,
+            "PDB ID": "2ZX6"
+        },
+        {
+            "Ligand ID": "ZX5",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 0.000469 nM"
+                }
+            ],
+            "Molecular Weight": 347.41,
+            "Residue ID": 901,
+            "PDB ID": "2ZX5"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "ZX7"
+        ],
+        [
+            "ZX8"
+        ],
+        [
+            "ZXA",
+            "ZX6"
+        ],
+        [
+            "ZXA",
+            "ZX5"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q9WYE2",
+        "Fragment SMILES": "C[C@H]1[C@H]([C@H]([C@@H]([C@H](N1)CN)O)O)O",
+        "Number of Ligands": 5,
+        "UniProt Name": "Alpha-L-fucosidase, putative",
+        "Fragment Name": "(2R,3R,4R,5R,6S)-2-(aminomethyl)-6-methylpiperidine-3,4,5-triol",
+        "Fragment ID": "ZWZ"
+    }
+}

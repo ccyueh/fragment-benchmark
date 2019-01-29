@@ -1,0 +1,52 @@
+{
+    "Entry Name": "TVP_P25440", 
+    "Structures": [
+        {
+            "Ligand ID": "TVP",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 189.25,
+            "Residue ID": 1189,
+            "PDB ID": "4A9H"
+        },
+        {
+            "Ligand ID": "73B",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 3.2 - <31623 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 25 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 4.4 nM"
+                }
+            ],
+            "Molecular Weight": 434.92,
+            "Residue ID": 1191,
+            "PDB ID": "4UYF"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "73B"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P25440",
+        "Fragment SMILES": "C[C@H]1CCc2ccccc2N1C(=O)C",
+        "Number of Ligands": 1,
+        "UniProt Name": "Bromodomain-containing protein 2",
+        "Fragment Name": "(2S)-1-ACETYL-2-METHYL-1,2,3,4-TETRAHYDROQUINOLINE",
+        "Fragment ID": "TVP"
+    }
+}

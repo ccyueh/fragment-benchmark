@@ -1,0 +1,188 @@
+{
+    "Entry Name": "LZ1_P24941", 
+    "Structures": [
+        {
+            "Ligand ID": "LZ1",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 185000 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 185000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 185000 nM"
+                }
+            ],
+            "Molecular Weight": 118.14,
+            "Residue ID": 1301,
+            "PDB ID": "2VTA"
+        },
+        {
+            "Ligand ID": "A07",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 2500 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 2500 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 2500 nM"
+                }
+            ],
+            "Molecular Weight": 313.78,
+            "Residue ID": 299,
+            "PDB ID": "3LFS"
+        },
+        {
+            "Ligand ID": "A28",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 315.32,
+            "Residue ID": 299,
+            "PDB ID": "3LFQ"
+        },
+        {
+            "Ligand ID": "LZ3",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 660 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 660 nM"
+                }
+            ],
+            "Molecular Weight": 316.33,
+            "Residue ID": 1299,
+            "PDB ID": "2VTI"
+        },
+        {
+            "Ligand ID": "SBC",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 7 nM"
+                }
+            ],
+            "Molecular Weight": 356.36,
+            "Residue ID": 1298,
+            "PDB ID": "2BKZ"
+        },
+        {
+            "Ligand ID": "A27",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 3160 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 3160 nM"
+                }
+            ],
+            "Molecular Weight": 371.43,
+            "Residue ID": 299,
+            "PDB ID": "3LFN"
+        },
+        {
+            "Ligand ID": "EZV",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 1040 nM"
+                }
+            ],
+            "Molecular Weight": 423.51,
+            "Residue ID": 300,
+            "PDB ID": "3EZV"
+        },
+        {
+            "Ligand ID": "EZR",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 10000 nM"
+                }
+            ],
+            "Molecular Weight": 453.54,
+            "Residue ID": 300,
+            "PDB ID": "3EZR"
+        },
+        {
+            "Ligand ID": "740",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 30 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 30 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 30 nM"
+                }
+            ],
+            "Molecular Weight": 453.56,
+            "Residue ID": 500,
+            "PDB ID": "2R64"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "A07"
+        ],
+        [
+            "A28"
+        ],
+        [
+            "LZ3"
+        ],
+        [
+            "SBC"
+        ],
+        [
+            "A27"
+        ],
+        [
+            "EZV"
+        ],
+        [
+            "EZR"
+        ],
+        [
+            "740"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P24941",
+        "Fragment SMILES": "c1ccc2c(c1)cn[nH]2",
+        "Number of Ligands": 8,
+        "UniProt Name": "Cyclin-dependent kinase 2",
+        "Fragment Name": "1H-indazole",
+        "Fragment ID": "LZ1"
+    }
+}

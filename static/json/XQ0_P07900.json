@@ -1,0 +1,155 @@
+{
+    "Entry Name": "XQ0_P07900", 
+    "Structures": [
+        {
+            "Ligand ID": "XQ0",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 148.16,
+            "Residue ID": 1226,
+            "PDB ID": "2YEC"
+        },
+        {
+            "Ligand ID": "EFT",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 85000 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 85000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 85000 nM"
+                }
+            ],
+            "Molecular Weight": 269.34,
+            "Residue ID": 301,
+            "PDB ID": "4EFT"
+        },
+        {
+            "Ligand ID": "EFU",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 250 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 250 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 250 nM"
+                }
+            ],
+            "Molecular Weight": 385.46,
+            "Residue ID": 301,
+            "PDB ID": "4EFU"
+        },
+        {
+            "Ligand ID": "C4T",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 405.88,
+            "Residue ID": 302,
+            "PDB ID": "6EY8"
+        },
+        {
+            "Ligand ID": "C4K",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 415.44,
+            "Residue ID": 301,
+            "PDB ID": "6EYA"
+        },
+        {
+            "Ligand ID": "C4N",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 419.9,
+            "Residue ID": 302,
+            "PDB ID": "6EY9"
+        },
+        {
+            "Ligand ID": "9R8",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 456.54,
+            "Residue ID": 301,
+            "PDB ID": "5OCI"
+        },
+        {
+            "Ligand ID": "9RZ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 493.56,
+            "Residue ID": 301,
+            "PDB ID": "5ODX"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "EFT"
+        ],
+        [
+            "C4K"
+        ],
+        [
+            "9R8"
+        ],
+        [
+            "9RZ"
+        ],
+        [
+            "EFU",
+            "C4N"
+        ],
+        [
+            "C4T",
+            "C4N"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P07900",
+        "Fragment SMILES": "Cc1c2ccc(cc2[nH]n1)O",
+        "Number of Ligands": 7,
+        "UniProt Name": "Heat shock protein HSP 90-alpha",
+        "Fragment Name": "3-METHYL-1H-INDAZOL-6-OL",
+        "Fragment ID": "XQ0"
+    }
+}

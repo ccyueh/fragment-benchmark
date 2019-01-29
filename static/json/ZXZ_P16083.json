@@ -1,0 +1,58 @@
+{
+    "Entry Name": "ZXZ_P16083", 
+    "Structures": [
+        {
+            "Ligand ID": "ZXZ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 18200 nM "
+                }
+            ],
+            "Molecular Weight": 173.21,
+            "Residue ID": 233,
+            "PDB ID": "3NHW"
+        },
+        {
+            "Ligand ID": "EWQ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 1900 nM "
+                }
+            ],
+            "Molecular Weight": 233.26,
+            "Residue ID": 232,
+            "PDB ID": "3NFR"
+        },
+        {
+            "Ligand ID": "VAP",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 7000 nM "
+                }
+            ],
+            "Molecular Weight": 263.29,
+            "Residue ID": 233,
+            "PDB ID": "3NHK"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "EWQ",
+            "VAP"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P16083",
+        "Fragment SMILES": "CC1=CC(=O)N(c2c1cccc2)C",
+        "Number of Ligands": 2,
+        "UniProt Name": "Ribosyldihydronicotinamide dehydrogenase [quinone]",
+        "Fragment Name": "1,4-dimethylquinolin-2(1H)-one",
+        "Fragment ID": "ZXZ"
+    }
+}

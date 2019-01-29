@@ -1,0 +1,44 @@
+{
+    "Entry Name": "DAL_P15555", 
+    "Structures": [
+        {
+            "Ligand ID": "DAL",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 89.09,
+            "Residue ID": 500,
+            "PDB ID": "1IKI"
+        },
+        {
+            "Ligand ID": "HEL",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 429.47,
+            "Residue ID": 400,
+            "PDB ID": "1PW1"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "HEL"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P15555",
+        "Fragment SMILES": "C[C@H](C(=O)O)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "D-alanyl-D-alanine carboxypeptidase",
+        "Fragment Name": "D-ALANINE",
+        "Fragment ID": "DAL"
+    }
+}

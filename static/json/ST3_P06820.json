@@ -1,0 +1,60 @@
+{
+    "Entry Name": "ST3_P06820", 
+    "Structures": [
+        {
+            "Ligand ID": "ST3",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = >10000000 nM "
+                }
+            ],
+            "Molecular Weight": 194.19,
+            "Residue ID": 471,
+            "PDB ID": "1IVE"
+        },
+        {
+            "Ligand ID": "ST5",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = >10000000 nM"
+                }
+            ],
+            "Molecular Weight": 252.22,
+            "Residue ID": 471,
+            "PDB ID": "1ING"
+        },
+        {
+            "Ligand ID": "ST6",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 5000000 nM"
+                }
+            ],
+            "Molecular Weight": 252.25,
+            "Residue ID": 471,
+            "PDB ID": "1INH"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "ST5"
+        ],
+        [
+            "ST6"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P06820",
+        "Fragment SMILES": "CC(=O)Nc1ccc(cc1N)C(=O)O",
+        "Number of Ligands": 2,
+        "UniProt Name": "Neuraminidase",
+        "Fragment Name": "4-(ACETYLAMINO)-3-AMINO BENZOIC ACID",
+        "Fragment ID": "ST3"
+    }
+}

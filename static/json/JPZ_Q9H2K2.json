@@ -1,0 +1,641 @@
+{
+    "Entry Name": "JPZ_Q9H2K2", 
+    "Structures": [
+        {
+            "Ligand ID": "JPZ",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 146.15,
+            "Residue ID": 1202,
+            "PDB ID": "4PNN"
+        },
+        {
+            "Ligand ID": "F40",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 59 nM"
+                }
+            ],
+            "Molecular Weight": 222.24,
+            "Residue ID": 2165,
+            "PDB ID": "4BU3"
+        },
+        {
+            "Ligand ID": "SZ5",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 236.27,
+            "Residue ID": 2165,
+            "PDB ID": "4UHG"
+        },
+        {
+            "Ligand ID": "RGK",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 73 nM"
+                }
+            ],
+            "Molecular Weight": 237.26,
+            "Residue ID": 2165,
+            "PDB ID": "4BU6"
+        },
+        {
+            "Ligand ID": "3F4",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 102 nM"
+                }
+            ],
+            "Molecular Weight": 238.24,
+            "Residue ID": 2162,
+            "PDB ID": "4BU5"
+        },
+        {
+            "Ligand ID": "M3W",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 6.7 nM "
+                }
+            ],
+            "Molecular Weight": 250.29,
+            "Residue ID": 2165,
+            "PDB ID": "4UFY"
+        },
+        {
+            "Ligand ID": "VT3",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 252.27,
+            "Residue ID": 2116,
+            "PDB ID": "4UI7"
+        },
+        {
+            "Ligand ID": "08C",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 9 nM"
+                }
+            ],
+            "Molecular Weight": 252.27,
+            "Residue ID": 2165,
+            "PDB ID": "4BU9"
+        },
+        {
+            "Ligand ID": "97K",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 262.27,
+            "Residue ID": 1204,
+            "PDB ID": "5NSX"
+        },
+        {
+            "Ligand ID": "F36",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 38 nM"
+                }
+            ],
+            "Molecular Weight": 264.28,
+            "Residue ID": 2162,
+            "PDB ID": "4BUF"
+        },
+        {
+            "Ligand ID": "BJ4",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 266.3,
+            "Residue ID": 2116,
+            "PDB ID": "4UI5"
+        },
+        {
+            "Ligand ID": "9AQ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 266.3,
+            "Residue ID": 1204,
+            "PDB ID": "5NVE"
+        },
+        {
+            "Ligand ID": "91F",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 35 nM"
+                }
+            ],
+            "Molecular Weight": 268.33,
+            "Residue ID": 2163,
+            "PDB ID": "4BUA"
+        },
+        {
+            "Ligand ID": "29F",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 278.35,
+            "Residue ID": 2164,
+            "PDB ID": "5AKU"
+        },
+        {
+            "Ligand ID": "W2E",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 23 nM"
+                }
+            ],
+            "Molecular Weight": 280.28,
+            "Residue ID": 2166,
+            "PDB ID": "4BUI"
+        },
+        {
+            "Ligand ID": "9A8",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 280.32,
+            "Residue ID": 1204,
+            "PDB ID": "5NUT"
+        },
+        {
+            "Ligand ID": "06R",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 290.24,
+            "Residue ID": 2115,
+            "PDB ID": "4UI3"
+        },
+        {
+            "Ligand ID": "9C8",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 293.36,
+            "Residue ID": 1201,
+            "PDB ID": "5NWD"
+        },
+        {
+            "Ligand ID": "9C5",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 295.34,
+            "Residue ID": 1204,
+            "PDB ID": "5NWB"
+        },
+        {
+            "Ligand ID": "32F",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 176 nM"
+                }
+            ],
+            "Molecular Weight": 296.28,
+            "Residue ID": 3165,
+            "PDB ID": "4BUS"
+        },
+        {
+            "Ligand ID": "9AW",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 299.33,
+            "Residue ID": 1204,
+            "PDB ID": "5NVF"
+        },
+        {
+            "Ligand ID": "25F",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 11 nM"
+                }
+            ],
+            "Molecular Weight": 301.14,
+            "Residue ID": 2165,
+            "PDB ID": "4BU7"
+        },
+        {
+            "Ligand ID": "31F",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 12 nM"
+                }
+            ],
+            "Molecular Weight": 301.32,
+            "Residue ID": 3165,
+            "PDB ID": "4BUT"
+        },
+        {
+            "Ligand ID": "2ZI",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 10 nM "
+                }
+            ],
+            "Molecular Weight": 304.27,
+            "Residue ID": 2165,
+            "PDB ID": "4UFU"
+        },
+        {
+            "Ligand ID": "9B2",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 305.37,
+            "Residue ID": 1204,
+            "PDB ID": "5NVH"
+        },
+        {
+            "Ligand ID": "IY5",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 306.24,
+            "Residue ID": 2115,
+            "PDB ID": "4UI8"
+        },
+        {
+            "Ligand ID": "F33",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 15 nM"
+                }
+            ],
+            "Molecular Weight": 307.3,
+            "Residue ID": 2165,
+            "PDB ID": "4BUW"
+        },
+        {
+            "Ligand ID": "97Z",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 307.35,
+            "Residue ID": 1204,
+            "PDB ID": "5NT4"
+        },
+        {
+            "Ligand ID": "F38",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 56 nM"
+                }
+            ],
+            "Molecular Weight": 315.35,
+            "Residue ID": 2162,
+            "PDB ID": "4BUU"
+        },
+        {
+            "Ligand ID": "ECZ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 320.27,
+            "Residue ID": 2113,
+            "PDB ID": "4UI6"
+        },
+        {
+            "Ligand ID": "JQF",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 71 nM"
+                }
+            ],
+            "Molecular Weight": 321.37,
+            "Residue ID": 2165,
+            "PDB ID": "4BUE"
+        },
+        {
+            "Ligand ID": "9CB",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 329.78,
+            "Residue ID": 1203,
+            "PDB ID": "5NWG"
+        },
+        {
+            "Ligand ID": "F35",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 34 nM"
+                }
+            ],
+            "Molecular Weight": 334.33,
+            "Residue ID": 2166,
+            "PDB ID": "4BUX"
+        },
+        {
+            "Ligand ID": "F37",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 334.33,
+            "Residue ID": 1204,
+            "PDB ID": "5OWS"
+        },
+        {
+            "Ligand ID": "16I",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 21 nM"
+                }
+            ],
+            "Molecular Weight": 347.39,
+            "Residue ID": 2165,
+            "PDB ID": "4BUV"
+        },
+        {
+            "Ligand ID": "RJN",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 385.42,
+            "Residue ID": 2116,
+            "PDB ID": "4UI4"
+        },
+        {
+            "Ligand ID": "Q28",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 477.51,
+            "Residue ID": 2163,
+            "PDB ID": "5FPG"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "F40",
+            "97K"
+        ],
+        [
+            "F40",
+            "91F"
+        ],
+        [
+            "F40",
+            "9AW"
+        ],
+        [
+            "F40",
+            "25F"
+        ],
+        [
+            "F40",
+            "31F"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "F36"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "29F"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "W2E"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "F38"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "F35"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "F37"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "RJN"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "M3W",
+            "2ZI"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "VT3",
+            "BJ4",
+            "ECZ"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "VT3",
+            "IY5",
+            "ECZ"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "06R",
+            "2ZI"
+        ],
+        [
+            "F40",
+            "SZ5",
+            "06R",
+            "IY5",
+            "ECZ"
+        ],
+        [
+            "F40",
+            "RGK",
+            "JQF"
+        ],
+        [
+            "F40",
+            "RGK",
+            "16I"
+        ],
+        [
+            "F40",
+            "RGK",
+            "9C8",
+            "9B2"
+        ],
+        [
+            "F40",
+            "RGK",
+            "9C8",
+            "97Z"
+        ],
+        [
+            "F40",
+            "RGK",
+            "9C5",
+            "F33"
+        ],
+        [
+            "F40",
+            "RGK",
+            "9C5",
+            "97Z"
+        ],
+        [
+            "F40",
+            "RGK",
+            "9C5",
+            "9CB"
+        ],
+        [
+            "F40",
+            "3F4",
+            "08C",
+            "9AQ",
+            "9A8"
+        ],
+        [
+            "F40",
+            "3F4",
+            "08C",
+            "9AQ",
+            "32F"
+        ],
+        [
+            "Q28"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q9H2K2",
+        "Fragment SMILES": "c1ccc2c(c1)C(=O)N=CN2",
+        "Number of Ligands": 36,
+        "UniProt Name": "Poly [ADP-ribose] polymerase tankyrase-2",
+        "Fragment Name": "quinazolin-4(1H)-one",
+        "Fragment ID": "JPZ"
+    }
+}

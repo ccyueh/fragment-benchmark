@@ -1,0 +1,78 @@
+{
+    "Entry Name": "8AP_P56817", 
+    "Structures": [
+        {
+            "Ligand ID": "8AP",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 310000 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 310000 nM"
+                }
+            ],
+            "Molecular Weight": 199.25,
+            "Residue ID": 389,
+            "PDB ID": "2OHM"
+        },
+        {
+            "Ligand ID": "IP6",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 9100 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 9100 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 9100 nM"
+                }
+            ],
+            "Molecular Weight": 314.38,
+            "Residue ID": 601,
+            "PDB ID": "2OHT"
+        },
+        {
+            "Ligand ID": "IP7",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 4200 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 4200 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 4200 nM"
+                }
+            ],
+            "Molecular Weight": 421.49,
+            "Residue ID": 390,
+            "PDB ID": "2OHU"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "IP6",
+            "IP7"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P56817",
+        "Fragment SMILES": "c1ccc(cc1)CNc2cccnc2N",
+        "Number of Ligands": 2,
+        "UniProt Name": "Beta-secretase 1",
+        "Fragment Name": "N~3~-BENZYLPYRIDINE-2,3-DIAMINE",
+        "Fragment ID": "8AP"
+    }
+}

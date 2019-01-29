@@ -1,0 +1,44 @@
+{
+    "Entry Name": "Q24_P0ABQ4", 
+    "Structures": [
+        {
+            "Ligand ID": "Q24",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 7000 nM"
+                }
+            ],
+            "Molecular Weight": 160.18,
+            "Residue ID": 161,
+            "PDB ID": "3QYO"
+        },
+        {
+            "Ligand ID": "JZM",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 38 nM "
+                }
+            ],
+            "Molecular Weight": 302.78,
+            "Residue ID": 1162,
+            "PDB ID": "3KFY"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "JZM"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P0ABQ4",
+        "Fragment SMILES": "c1ccc2c(c1)c(nc(n2)N)N",
+        "Number of Ligands": 1,
+        "UniProt Name": "Dihydrofolate reductase",
+        "Fragment Name": "quinazoline-2,4-diamine",
+        "Fragment ID": "Q24"
+    }
+}

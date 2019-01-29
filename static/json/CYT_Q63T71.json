@@ -1,0 +1,60 @@
+{
+    "Entry Name": "CYT_Q63T71", 
+    "Structures": [
+        {
+            "Ligand ID": "CYT",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 111.1,
+            "Residue ID": 901,
+            "PDB ID": "3IKE"
+        },
+        {
+            "Ligand ID": "AO9",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 70000 nM"
+                }
+            ],
+            "Molecular Weight": 392.39,
+            "Residue ID": 164,
+            "PDB ID": "3Q8H"
+        },
+        {
+            "Ligand ID": "CTP",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 483.16,
+            "Residue ID": 901,
+            "PDB ID": "3IEW"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "AO9"
+        ],
+        [
+            "CTP"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q63T71",
+        "Fragment SMILES": "C1=C(NC(=O)N=C1)N",
+        "Number of Ligands": 2,
+        "UniProt Name": "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",
+        "Fragment Name": "6-AMINOPYRIMIDIN-2(1H)-ONE",
+        "Fragment ID": "CYT"
+    }
+}

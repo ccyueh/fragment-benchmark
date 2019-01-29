@@ -1,0 +1,139 @@
+{
+    "Entry Name": "1SA_P00918", 
+    "Structures": [
+        {
+            "Ligand ID": "1SA",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 60 - 60000 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 2750 - 7400 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 60 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 60 nM"
+                }
+            ],
+            "Molecular Weight": 180.21,
+            "Residue ID": 265,
+            "PDB ID": "2HNC"
+        },
+        {
+            "Ligand ID": "AZM",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 0.5 - 4500 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 0.3 - 3300 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 6.8 - 46 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 10 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 10 nM"
+                }
+            ],
+            "Molecular Weight": 222.25,
+            "Residue ID": 701,
+            "PDB ID": "3HS4"
+        },
+        {
+            "Ligand ID": "1GO",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 51 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 51 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 51 nM"
+                }
+            ],
+            "Molecular Weight": 304.37,
+            "Residue ID": 301,
+            "PDB ID": "4IWZ"
+        },
+        {
+            "Ligand ID": "D8W",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 7 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 7 nM"
+                }
+            ],
+            "Molecular Weight": 320.37,
+            "Residue ID": 301,
+            "PDB ID": "3D8W"
+        },
+        {
+            "Ligand ID": "ARZ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 10 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Ki = 11 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Ki = 11 nM"
+                }
+            ],
+            "Molecular Weight": 342.44,
+            "Residue ID": 263,
+            "PDB ID": "3MHC"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "D8W"
+        ],
+        [
+            "AZM",
+            "1GO"
+        ],
+        [
+            "AZM",
+            "ARZ"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P00918",
+        "Fragment SMILES": "c1(nnc(s1)S(=O)(=O)N)N",
+        "Number of Ligands": 4,
+        "UniProt Name": "Carbonic anhydrase 2",
+        "Fragment Name": "5-AMINO-1,3,4-THIADIAZOLE-2-SULFONAMIDE",
+        "Fragment ID": "1SA"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "Entry Name": "A9P_P25440", 
+    "Structures": [
+        {
+            "Ligand ID": "A9P",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 34300 nM "
+                }
+            ],
+            "Molecular Weight": 173.21,
+            "Residue ID": 1185,
+            "PDB ID": "4ALH"
+        },
+        {
+            "Ligand ID": "A9N",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 1500 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 1500 nM"
+                }
+            ],
+            "Molecular Weight": 304.36,
+            "Residue ID": 1189,
+            "PDB ID": "4A9N"
+        },
+        {
+            "Ligand ID": "P9M",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 500 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 500 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 500 nM"
+                }
+            ],
+            "Molecular Weight": 334.43,
+            "Residue ID": 1187,
+            "PDB ID": "4A9M"
+        },
+        {
+            "Ligand ID": "1GH",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 9 - 50 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 55 - 70 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 500 - 501.2 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 500 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 500 nM"
+                }
+            ],
+            "Molecular Weight": 415.44,
+            "Residue ID": 1146,
+            "PDB ID": "4ALG"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "A9N"
+        ],
+        [
+            "P9M"
+        ],
+        [
+            "1GH"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P25440",
+        "Fragment SMILES": "Cc1c(c(on1)C)c2ccccc2",
+        "Number of Ligands": 3,
+        "UniProt Name": "Bromodomain-containing protein 2",
+        "Fragment Name": "3,5 DIMETHYL-4-PHENYL-1,2-OXAZOLE",
+        "Fragment ID": "A9P"
+    }
+}

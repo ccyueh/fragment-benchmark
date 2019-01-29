@@ -1,0 +1,44 @@
+{
+    "Entry Name": "GLA_P42592", 
+    "Structures": [
+        {
+            "Ligand ID": "GLA",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 180.16,
+            "Residue ID": 1002,
+            "PDB ID": "3W7U"
+        },
+        {
+            "Ligand ID": "MLB",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 342.3,
+            "Residue ID": 1002,
+            "PDB ID": "3W7X"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "MLB"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P42592",
+        "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Glucosidase YgjK",
+        "Fragment Name": "ALPHA D-GALACTOSE",
+        "Fragment ID": "GLA"
+    }
+}

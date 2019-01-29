@@ -1,0 +1,80 @@
+{
+    "Entry Name": "CAQ_P47228", 
+    "Structures": [
+        {
+            "Ligand ID": "CAQ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 110.11,
+            "Residue ID": 301,
+            "PDB ID": "1KND"
+        },
+        {
+            "Ligand ID": "BPY",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 8000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 8000 nM"
+                }
+            ],
+            "Molecular Weight": 186.21,
+            "Residue ID": 300,
+            "PDB ID": "1KMY"
+        },
+        {
+            "Ligand ID": "BP3",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 800 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 800 nM"
+                }
+            ],
+            "Molecular Weight": 220.65,
+            "Residue ID": 300,
+            "PDB ID": "1LGT"
+        },
+        {
+            "Ligand ID": "BP6",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 255.1,
+            "Residue ID": 300,
+            "PDB ID": "1LKD"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "BPY",
+            "BP3",
+            "BP6"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P47228",
+        "Fragment SMILES": "c1ccc(c(c1)O)O",
+        "Number of Ligands": 3,
+        "UniProt Name": "Biphenyl-2,3-diol 1,2-dioxygenase",
+        "Fragment Name": "CATECHOL",
+        "Fragment ID": "CAQ"
+    }
+}

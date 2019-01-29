@@ -1,0 +1,91 @@
+{
+    "Entry Name": "CYT_Q3JRA0", 
+    "Structures": [
+        {
+            "Ligand ID": "CYT",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 111.1,
+            "Residue ID": 164,
+            "PDB ID": "3MBM"
+        },
+        {
+            "Ligand ID": "CTN",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 243.22,
+            "Residue ID": 165,
+            "PDB ID": "3QHD"
+        },
+        {
+            "Ligand ID": "C",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 323.2,
+            "Residue ID": 901,
+            "PDB ID": "3IEQ"
+        },
+        {
+            "Ligand ID": "C5P",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 323.2,
+            "Residue ID": 163,
+            "PDB ID": "3F0G"
+        },
+        {
+            "Ligand ID": "I5A",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 353.11,
+            "Residue ID": 164,
+            "PDB ID": "3K2X"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "I5A"
+        ],
+        [
+            "CTN",
+            "C"
+        ],
+        [
+            "CTN",
+            "C5P"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q3JRA0",
+        "Fragment SMILES": "C1=C(NC(=O)N=C1)N",
+        "Number of Ligands": 4,
+        "UniProt Name": "2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",
+        "Fragment Name": "6-AMINOPYRIMIDIN-2(1H)-ONE",
+        "Fragment ID": "CYT"
+    }
+}

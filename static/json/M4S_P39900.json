@@ -1,0 +1,115 @@
+{
+    "Entry Name": "M4S_P39900", 
+    "Structures": [
+        {
+            "Ligand ID": "M4S",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 1500000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 1500000 nM"
+                }
+            ],
+            "Molecular Weight": 187.22,
+            "Residue ID": 1,
+            "PDB ID": "3LKA"
+        },
+        {
+            "Ligand ID": "Z79",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 20 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 19.7 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 19.7 nM"
+                }
+            ],
+            "Molecular Weight": 260.27,
+            "Residue ID": 0,
+            "PDB ID": "3LK8"
+        },
+        {
+            "Ligand ID": "NHK",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Ki = 7.6 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 7.88 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 7.88 nM"
+                }
+            ],
+            "Molecular Weight": 304.32,
+            "Residue ID": 0,
+            "PDB ID": "3NX7"
+        },
+        {
+            "Ligand ID": "HS1",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "Kd = 7.88 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 7.88 nM"
+                }
+            ],
+            "Molecular Weight": 332.33,
+            "Residue ID": 0,
+            "PDB ID": "3F15"
+        },
+        {
+            "Ligand ID": "CGS",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 2 nM"
+                }
+            ],
+            "Molecular Weight": 393.46,
+            "Residue ID": 999,
+            "PDB ID": "1JIZ"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "HS1"
+        ],
+        [
+            "Z79",
+            "NHK"
+        ],
+        [
+            "Z79",
+            "CGS"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P39900",
+        "Fragment SMILES": "COc1ccc(cc1)S(=O)(=O)N",
+        "Number of Ligands": 4,
+        "UniProt Name": "Macrophage metalloelastase",
+        "Fragment Name": "4-methoxybenzenesulfonamide",
+        "Fragment ID": "M4S"
+    }
+}

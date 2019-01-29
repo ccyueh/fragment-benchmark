@@ -1,0 +1,120 @@
+{
+    "Entry Name": "2AQ_P56817", 
+    "Structures": [
+        {
+            "Ligand ID": "2AQ",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 800000 - 2000000 nM "
+                },
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 900000 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 900000 nM"
+                }
+            ],
+            "Molecular Weight": 144.17,
+            "Residue ID": 390,
+            "PDB ID": "2OHL"
+        },
+        {
+            "Ligand ID": "RTH",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "Kd = 6100 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "Kd = 6100 nM"
+                }
+            ],
+            "Molecular Weight": 300.4,
+            "Residue ID": 397,
+            "PDB ID": "3RTH"
+        },
+        {
+            "Ligand ID": "RTN",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 74 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 74 nM"
+                }
+            ],
+            "Molecular Weight": 387.52,
+            "Residue ID": 401,
+            "PDB ID": "3RTN"
+        },
+        {
+            "Ligand ID": "3RS",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 0.7 - 18 nM "
+                },
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 0.7 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 0.7 nM"
+                }
+            ],
+            "Molecular Weight": 431.57,
+            "Residue ID": 400,
+            "PDB ID": "3RSV"
+        },
+        {
+            "Ligand ID": "RVI",
+            "Chain": "A",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGDB",
+                    "Affinity": "IC50 = 11 nM "
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 11 nM"
+                }
+            ],
+            "Molecular Weight": 443.62,
+            "Residue ID": 402,
+            "PDB ID": "3RVI"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "RTH"
+        ],
+        [
+            "RTN"
+        ],
+        [
+            "3RS"
+        ],
+        [
+            "RVI"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "P56817",
+        "Fragment SMILES": "c1ccc2c(c1)ccc(n2)N",
+        "Number of Ligands": 4,
+        "UniProt Name": "Beta-secretase 1",
+        "Fragment Name": "QUINOLIN-2-AMINE",
+        "Fragment ID": "2AQ"
+    }
+}

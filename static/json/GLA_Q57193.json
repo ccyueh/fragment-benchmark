@@ -1,0 +1,96 @@
+{
+    "Entry Name": "GLA_Q57193", 
+    "Structures": [
+        {
+            "Ligand ID": "GLA",
+            "Chain": "D",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 180.16,
+            "Residue ID": 205,
+            "PDB ID": "5ELB"
+        },
+        {
+            "Ligand ID": "GAA",
+            "Chain": "E",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 700000 nM"
+                },
+                {
+                    "Source": "PDBBIND",
+                    "Affinity": "IC50 = 700000 nM"
+                }
+            ],
+            "Molecular Weight": 301.25,
+            "Residue ID": 505,
+            "PDB ID": "1EEI"
+        },
+        {
+            "Ligand ID": "FNG",
+            "Chain": "F",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 344.27,
+            "Residue ID": 104,
+            "PDB ID": "1LLR"
+        },
+        {
+            "Ligand ID": "J15",
+            "Chain": "F",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 320000 nM"
+                }
+            ],
+            "Molecular Weight": 527.57,
+            "Residue ID": 106,
+            "PDB ID": "1PZJ"
+        },
+        {
+            "Ligand ID": "J12",
+            "Chain": "H",
+            "Binding Affinity": [
+                {
+                    "Source": "BINDINGMOAD",
+                    "Affinity": "IC50 = 200000 nM"
+                }
+            ],
+            "Molecular Weight": 621.75,
+            "Residue ID": 108,
+            "PDB ID": "1PZK"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "GAA"
+        ],
+        [
+            "FNG"
+        ],
+        [
+            "J15"
+        ],
+        [
+            "J12"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q57193",
+        "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+        "Number of Ligands": 4,
+        "UniProt Name": "Cholera enterotoxin B-subunit",
+        "Fragment Name": "ALPHA D-GALACTOSE",
+        "Fragment ID": "GLA"
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "Entry Name": "GLA_Q9ALJ4", 
+    "Structures": [
+        {
+            "Ligand ID": "GLA",
+            "Chain": "B",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 180.16,
+            "Residue ID": 801,
+            "PDB ID": "4FNU"
+        },
+        {
+            "Ligand ID": "RAF",
+            "Chain": "C",
+            "Binding Affinity": [
+                {
+                    "Source": "-",
+                    "Affinity": "-"
+                }
+            ],
+            "Molecular Weight": 504.44,
+            "Residue ID": 801,
+            "PDB ID": "4FNT"
+        }
+    ],
+    "Substructure Relationships": [
+        [
+            "RAF"
+        ]
+    ],
+    "Summary: {
+        "UniProt Accession": "Q9ALJ4",
+        "Fragment SMILES": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@H](O1)O)O)O)O)O",
+        "Number of Ligands": 1,
+        "UniProt Name": "Alpha-galactosidase AgaA",
+        "Fragment Name": "ALPHA D-GALACTOSE",
+        "Fragment ID": "GLA"
+    }
+}
