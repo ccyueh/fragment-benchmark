@@ -5,16 +5,16 @@ import { Button, ButtonGroup } from 'react-bootstrap'
 const fileTypes = ['json','pdb','tar']
 const fileText = {
   'json': 'Tables only',
-  'pdb': 'PyMOL session only',
-  'tar': 'Tables + PyMOL session'
+  'pdb': 'Visualization only',
+  'tar': 'Tables + Visualization'
 }
 
 const DLTable = ({ entry_name }) => (
   <ButtonGroup justified>
     {fileTypes.map(filetype => {
       return (
-        <Button bsStyle='link' 
-	  href={'../../static/' + filetype + '/' + entry_name + '.' + filetype}>
+        <Button bsStyle='link' download={fileText[filetype] + ' for ' + entry_name} 
+	  href={'../../' + filetype + '/' + entry_name + '.' + filetype}>
           {fileText[filetype]}</Button>)
      })}
   </ButtonGroup>
