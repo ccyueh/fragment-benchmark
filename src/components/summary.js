@@ -1,3 +1,4 @@
+import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
@@ -5,7 +6,7 @@ import { Row, Col } from 'react-bootstrap'
 const Summary = ({ image, data }) => (
   <Row>
     <center>
-      <img src={require('../images/' + image + '.png')} style={{ maxWidth: `300px` }} alt=''/>
+      <img src={withPrefix('/images/' + image + '.png')} style={{ maxWidth: `300px` }} alt=''/>
       <p><a href='#dl'>Download files</a></p>
     </center>
     <Col xs={12}>

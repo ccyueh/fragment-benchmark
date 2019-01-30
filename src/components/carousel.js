@@ -1,3 +1,4 @@
+import { withPrefix } from 'gatsby'
 import React from 'react'
 import { Row, Col, Carousel } from 'react-bootstrap'
 import styled from 'styled-components'
@@ -32,7 +33,7 @@ const IndexCarousel = () => (
 	    {images.map(image => {
 	      return (
 	        <Carousel.Item style={{ minHeight: `100%` }}>
-                  <img alt='' src={require('../images/' + image + '.png')} />
+                  <img alt='' src={withPrefix('/images/' + image + '.png')} />
                   <Carousel.Caption>
                     <h4>{captions[image]}</h4>
                   </Carousel.Caption>
