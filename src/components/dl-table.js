@@ -14,7 +14,7 @@ const DLTable = ({ entry_name }) => (
       return (
         <Button bsStyle='link' download 
 	  href={'../../' + filetype + '/' + entry_name + '.' + filetype}>
-          {fileText[filetype]}</Button>)
+          {fileText[filetype] + ' (.' + filetype + ')'}</Button>)
      })}
   </ButtonGroup>
 )
