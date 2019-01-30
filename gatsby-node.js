@@ -45,14 +45,6 @@ exports.createPages = async ({ graphql, actions: { createPage } }) => {
     }
   });
 
-  createPage({
-    path: `/download/`,
-    component: require.resolve('./src/templates/download.js'),
-    context: {
-      slug: `/`
-    }
-  });
-
   allEntries.forEach(entry => {
     createPage({
       path: `/entry/${entry.node.entry_name}/`,
