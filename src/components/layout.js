@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Grid, Row } from 'react-bootstrap'
+import { Grid } from 'react-bootstrap'
 
 import Header from './header'
 import './layout.css'
@@ -22,14 +22,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
 	  <Grid>
           {children}
-	  <Row>
-	    <hr />
-	  </Row>
-          <footer>
-	    <center>
-	      <a href="http://structure.bu.edu/">Structural Bioinformatics Lab</a>
-	    </center>
-          </footer>
 	  </Grid>
       </>
     )}
