@@ -20,9 +20,17 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-	  <Grid>
+	  <Grid style={{ minHeight: `85vh` }}>
           {children}
 	  </Grid>
+	  <footer>
+	    <Grid>
+	      <center>
+	        <hr />
+	    	<a href='http://structure.bu.edu/'>Structural Bioinformatics Lab</a>
+	      </center>
+	    </Grid>
+	  </footer>
       </>
     )}
   />
