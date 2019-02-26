@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Fragment Benchmark`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `A resource for fragment-based drug discovery. This site allows users to view and download a benchmark dataset of protein structures with a variety of small molecules with conserved binding.`,
+    author: `Christine Yueh`
   },
   pathPrefix: `/static`,
   plugins: [
@@ -40,8 +40,5 @@ module.exports = {
         display: `minimal-ui`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }
