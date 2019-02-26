@@ -17,7 +17,7 @@ const CarouselWrapper = styled.div`
     margin-right: 20%;
   }
 `
-const images = ['index_4','index_3','index_2','index_1']
+const images = ['index_1','index_2','index_3','index_4']
 const captions = {
   'index_1': '1LQ (fragment)',
   'index_2': '1LQ (fragment) + 5P7 (ligand 1)',
@@ -34,7 +34,7 @@ const IndexCarousel = () => (
 	      return (
 	        <Carousel.Item style={{ minHeight: `100%` }}>
                   <img alt='' src={withPrefix('/images/' + image + '.png')} />
-                  <Carousel.Caption>
+                  <Carousel.Caption style={{ background: `rgba(0,0,0,0.35)` }}>
                     <h4>{captions[image]}</h4>
                   </Carousel.Caption>
                 </Carousel.Item>)}
