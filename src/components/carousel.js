@@ -19,17 +19,17 @@ const CarouselWrapper = styled.div`
 `
 const images = ['index_4','index_3','index_2','index_1']
 const captions = {
-  'index_1': 'fragment',
-  'index_2': 'fragment + ligand 1',
-  'index_3': 'fragment + ligands 1-2',
-  'index_4': 'fragment + ligands 1-3'
+  'index_1': '1LQ (fragment)',
+  'index_2': '1LQ (fragment) + 5P7 (ligand 1)',
+  'index_3': '1LQ (fragment) + 5P7 + UX0 (ligands 1-2)',
+  'index_4': '1LQ (fragment) + 5P7 + UX0 + KC7 (ligands 1-3)'
 }
 const IndexCarousel = () => (
   <Row>
     <Col xs={12}>
       <center>
 	<CarouselWrapper>
-          <Carousel slide={false}>
+          <Carousel interval={2500}>
 	    {images.map(image => {
 	      return (
 	        <Carousel.Item style={{ minHeight: `100%` }}>

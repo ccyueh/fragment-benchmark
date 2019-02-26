@@ -5,8 +5,8 @@ import SEO from '../components/seo'
 
 const fileText = {
   'tables': 'Tables only',
-  'visual': 'Visualization only',
-  'combined': 'Tables + Visualization'
+  'visual': 'Visualizations only',
+  'combined': 'Tables + Visualizations'
 }
 
 const Download = () => (
