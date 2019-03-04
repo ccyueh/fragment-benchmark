@@ -2,7 +2,7 @@
   Fragment Benchmark 
 </h1>
 
-The Fragment Benchmark is a website intended as an online resource for fragment-based drug discovery. This benchmark dataset contains 62 cases of proteins with conserved binding of structurally similar fragments and drug-like ligands. Users can browse entries by protein or fragment data, or download data and visualizations of each set of structures for individual or all entries. The website can (in the future) be accessed at [fragment-benchmark.bu.edu](https://fragment-benchmark.bu.edu).
+The Fragment Benchmark is a website intended as an online resource for fragment-based drug discovery. This benchmark dataset contains 62 cases of proteins with conserved binding of structurally similar fragments and drug-like ligands. Users can browse entries by protein or fragment data, or download data and visualizations of each set of structures for individual or all entries. The website can currently be accessed at [ccyueh.github.io/fragment-benchmark/](https://ccyueh.github.io/fragment-benchmark/).
  
 ## Setup
 
