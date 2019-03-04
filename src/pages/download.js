@@ -18,7 +18,7 @@ const Download = () => (
 	  {Object.keys(fileText).map(dltype => {
           return (
             <Button bsStyle='link' download
-            href={'../../all/' + dltype + '.zip'}>
+            href={'../all/' + dltype + '.zip'}>
             {fileText[dltype] + ' (.zip)'}</Button>)
 	  })}
  	</ButtonGroup>

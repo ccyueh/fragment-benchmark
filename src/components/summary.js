@@ -1,7 +1,7 @@
-import { withPrefix } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import { withPrefix } from 'gatsby'
 
 const Summary = ({ image, data }) => (
   <Row>

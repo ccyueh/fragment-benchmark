@@ -4,7 +4,7 @@ module.exports = {
     description: `A resource for fragment-based drug discovery. This site allows users to view and download a benchmark dataset of protein structures with a variety of small molecules with conserved binding.`,
     author: `Christine Yueh`
   },
-  pathPrefix: `/static`,
+  pathPrefix: `/fragment-benchmark`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

@@ -4,11 +4,12 @@ import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import { withPrefix } from 'gatsby'
 
 const columns = [{
   Header: 'Entry Name',
   accessor: 'Entry_Name',
-  Cell: props => <a href={'/entry/' + props.value}>{props.value}</a>,
+  Cell: props => <a href={withPrefix('/entry/' + props.value)}>{props.value}</a>,
   width: 130
 }, {
   Header: 'Fragment',
