@@ -4,7 +4,6 @@ import { StaticQuery, graphql } from 'gatsby'
 import { Grid } from 'react-bootstrap'
 
 import Header from './header'
-import './layout.css'
 
 const Layout = ({ children }) => (
   <StaticQuery

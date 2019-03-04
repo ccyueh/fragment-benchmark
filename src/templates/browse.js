@@ -1,15 +1,14 @@
-import { graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery, Link } from 'gatsby'
 import React from 'react'
 import ReactTable from 'react-table'
 import 'react-table/react-table.css'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import { withPrefix } from 'gatsby'
 
 const columns = [{
   Header: 'Entry Name',
   accessor: 'Entry_Name',
-  Cell: props => <a href={withPrefix('/entry/' + props.value)}>{props.value}</a>,
+  Cell: props => <Link to={'/entry/' + props.value}>{props.value}</Link>,
   width: 130
 }, {
   Header: 'Fragment',

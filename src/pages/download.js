@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import { Button, ButtonGroup } from 'react-bootstrap'
 import Layout from '../components/layout'
@@ -23,7 +24,7 @@ const Download = () => (
 	  })}
  	</ButtonGroup>
       <p />
-      <p>To download files from a specific entry, visit its individual page (browse all entries <a href='/browse/'>here</a>).</p>
+      <p>To download files from a specific entry, visit its individual page (browse all entries <Link to='/browse/'>here</Link>).</p>
   </Layout>
 )
 
