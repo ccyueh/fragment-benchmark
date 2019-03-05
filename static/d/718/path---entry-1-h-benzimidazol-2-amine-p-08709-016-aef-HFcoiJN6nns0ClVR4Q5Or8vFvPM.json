@@ -1,0 +1,1 @@
+{"errors":[{"message":"Variable \"$id\" is not defined by operation \"homeCcyuehSrcSiteFragmentBenchmarkSrcTemplatesEntryJs4254654412\".","locations":[{"line":4,"column":31},{"line":1,"column":1}]},{"message":"Variable \"$slug\" is never used in operation \"homeCcyuehSrcSiteFragmentBenchmarkSrcTemplatesEntryJs4254654412\".","locations":[{"line":2,"column":3}]}],"pageContext":{}}
