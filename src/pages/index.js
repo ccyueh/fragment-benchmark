@@ -10,7 +10,7 @@ const IndexPage = () => (
     <h1>Welcome to the Fragment Benchmark</h1>
     <Row>
       <Col xs={12}>
-	<p>The Fragment Benchmark is a resource for fragment-based drug discovery. This benchmark dataset contains <strong>62</strong> cases of proteins with conserved binding of structurally similar fragments and drug-like ligands. Users can browse entries by protein or fragment data, or download data and visualizations of each set of structures for individual or all entries.</p>
+	<p>The Fragment Benchmark is a benchmark dataset that contains <strong>62</strong> cases of proteins with structures that demonstrate conserved binding of small fragment molecules and larger, structurally similar drug-like ligands. Users can browse entries by protein or fragment data, or download data and visualizations of each set of structures for individual or all entries.</p>
       </Col>
     </Row>
     <center>
