@@ -7,7 +7,7 @@ import SEO from '../components/seo'
 import StructTable from '../components/structure'
 import Summary from '../components/summary'
 import Substruct from '../components/substructure'
-import DLTable from '../components/dl-table'
+import Apo from '../components/apo-table'
 
 export default ({ data: { entry } }) => (
   <Layout>
@@ -36,10 +36,10 @@ export default ({ data: { entry } }) => (
       </Row>
       <Substruct frag={entry.summary.Fragment_ID} data={entry.substructures} />
       <Row>
-	<hr />
-	<h3 id='dl'>Download</h3>
-	<DLTable entry_name={entry.entry_name} />
-	<p />
+        <hr />
+        <h3>Unliganded Structures</h3>
+        <Apo data={entry.apo} />
+        <p />
       </Row>
   </Layout>
 )
@@ -68,6 +68,7 @@ export const query = graphql`
 	}
       }
       substructures
+      apo
     }    
   }
 `
