@@ -5,9 +5,8 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 const fileText = {
-  'tables': 'Tables only',
-  'visual': 'Visualizations only',
-  'combined': 'Tables + Visualizations'
+  'tables': 'Tables',
+  'structures': 'Structure files',
 }
 
 const Download = () => (
@@ -19,12 +18,11 @@ const Download = () => (
 	  {Object.keys(fileText).map(dltype => {
           return (
             <Button bsStyle='link' download
-            href={'../all/' + dltype + '.zip'}>
+            href={'../downloads/' + dltype + '.zip'}>
             {fileText[dltype] + ' (.zip)'}</Button>)
 	  })}
  	</ButtonGroup>
       <p />
-      <p>To download files from a specific entry, visit its individual page (browse all entries <Link to='/browse/'>here</Link>).</p>
   </Layout>
 )
 
