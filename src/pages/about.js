@@ -1,10 +1,23 @@
-import { Link } from 'gatsby'
+import { Link, withPrefix } from 'gatsby'
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import IndexCarousel from '../components/carousel'
 
+const ExampleButton = () => (
+	<span>
+	  <Button href='https://www.bindingdb.org/' bsStyle='primary' bsSize='xsmall'>
+	    BINDINGDB
+	  </Button>{', '}  
+	  <Button href='http://www.pdbbind.org.cn/' bsStyle='success' bsSize='xsmall'>
+	    PDBBIND
+	  </Button>{', or '}    
+	  <Button href='http://www.bindingmoad.org/' bsStyle='info' bsSize='xsmall'>
+	    BINDINGMOAD
+	  </Button>
+	</span>
+)
 const AboutPage = () => (
   <Layout>
     <SEO title="About" />
@@ -16,10 +29,18 @@ const AboutPage = () => (
       </Col>
     </Row>
     <IndexCarousel />
-    <h3>How to use the Fragment Benchmark</h3>
+    <h2>How to use the Fragment Benchmark</h2>
     <Row>
       <Col xs={12}>
-	<p>(Coming soon)</p>
+	<p>Each entry in the Fragment Benchmark contains structures of the same protein bound to a small, fragment-like molecule and larger ligands that are substructures of the fragment. Below is a guide to the sections in each entry page (using entry <Link to='/entry/2AE_P07900/'><strong>2AE_P07900</strong></Link> as an example).</p>
+	<p>The <strong>Summary</strong> section contains details about the entry fragment and protein.</p>
+	<p><img src={withPrefix('/images/about_summary.png')} alt=''/></p>
+	<p>The <strong>Structural Details</strong> section lists the structures that contain the fragment/ligands, with details about each. When available, binding affinity for each fragment/ligand is also included, and is color-coded by source: <ExampleButton />.</p>
+	<p><img src={withPrefix('/images/about_structures.png')} alt=''/></p>
+	<p><strong>Substructure Relationships</strong> shows which molecules are substructures of each other. All ligands are substructures of the fragment, but some ligands may be substructures of other ligands as well. Here, SNX, 2LC, 06J, SD1, 06T, 99B, and 05S are all substructures of the fragment, 2AE, but 06H is also a substructure of 05S.</p>
+	<p><img src={withPrefix('/images/about_substructures.png')} alt=''/></p>
+	<p><strong>Unliganded Structures</strong> lists structures with at least 95% sequence similarity to the entry protein that do not contain any ligands in the fragment pocket. Some entries may not have any unliganded structures available.</p>
+	<p><img src={withPrefix('/images/about_apo.png')} alt=''/></p>
       </Col>
     </Row>
   </Layout>
